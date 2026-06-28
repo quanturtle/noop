@@ -16,6 +16,9 @@ settings:
     # SAME value — they must match or iOS warns "extension version must match parent app" (#416).
     # macOS sets its own CFBundleVersion on the Strand target and is unaffected by this.
     CURRENT_PROJECT_VERSION: "159"
+    # macOS build number (CFBundleVersion) shared by the Strand app and its widget extension so they
+    # stay lockstep — the macOS analogue of CURRENT_PROJECT_VERSION for iOS.
+    MACOS_BUILD_VERSION: "190"
     SWIFT_VERSION: "5.0"
     # Emit localizable strings so Xcode auto-extracts every LocalizedStringKey into the
     # String Catalog on build (the English (US) base entries).
@@ -69,13 +72,16 @@ targets:
         excludes:
           - "Resources/Info.plist"
           - "Resources/Strand.entitlements"
+      - path: StrandiOSShared/WidgetSnapshot.swift
+      - path: StrandiOS/Widgets/WidgetPublish.swift
     info:
       path: Strand/Resources/Info.plist
       properties:
         CFBundleName: NOOP
         CFBundleDisplayName: NOOP
         CFBundleShortVersionString: "$(MARKETING_VERSION)"
-        CFBundleVersion: "190"
+        CFBundleVersion: "$(MACOS_BUILD_VERSION)"
+        AppGroupIdentifier: "$(APP_GROUP_ID)"
         LSMinimumSystemVersion: "13.0"
         LSApplicationCategoryType: public.app-category.healthcare-fitness
         NSBluetoothAlwaysUsageDescription: "NOOP connects directly to your WHOOP strap over Bluetooth to read heart rate, R-R intervals, battery, and sensor data locally on your Mac. Nothing leaves your device."
@@ -97,6 +103,8 @@ targets:
         # re-sign), so this matters only for a SIGNED/sandboxed build (where the sandbox
         # otherwise blocks the Coach's request — #128). Data path stays network-free.
         com.apple.security.network.client: true
+        com.apple.security.application-groups:
+          - $(APP_GROUP_ID)
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.noopapp.noop
@@ -118,6 +126,7 @@ targets:
       - package: StrandDesign
       - package: MarkdownUI
       - package: ZIPFoundation
+      - target: NOOPMacWidgets
   StrandTests:
     type: bundle.unit-test
     platform: macOS
@@ -305,6 +314,39 @@ targets:
         PRODUCT_NAME: NOOPWidgets
         GENERATE_INFOPLIST_FILE: NO
         TARGETED_DEVICE_FAMILY: "1,2"
+    dependencies:
+      - package: StrandDesign
+
+  NOOPMacWidgets:
+    type: app-extension
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: StrandMacWidgets
+        excludes:
+          - "Info.plist"
+          - "NOOPMacWidgets.entitlements"
+      - path: StrandiOSShared/WidgetSnapshot.swift
+    info:
+      path: StrandMacWidgets/Info.plist
+      properties:
+        CFBundleDisplayName: NOOP
+        CFBundleShortVersionString: "$(MARKETING_VERSION)"
+        CFBundleVersion: "$(MACOS_BUILD_VERSION)"
+        AppGroupIdentifier: "$(APP_GROUP_ID)"
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: StrandMacWidgets/NOOPMacWidgets.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.application-groups:
+          - $(APP_GROUP_ID)
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.noopapp.noop.macwidgets
+        PRODUCT_NAME: NOOPMacWidgets
+        GENERATE_INFOPLIST_FILE: NO
     dependencies:
       - package: StrandDesign
 

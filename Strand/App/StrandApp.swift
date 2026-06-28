@@ -21,6 +21,7 @@ struct StrandApp: App {
     @AppStorage(AppearanceMode.storageKey) private var appearanceRaw = AppearanceMode.system.rawValue
     /// Chart data-colour style (Titanium / Classic throwback). Re-colours gauges + charts.
     @AppStorage(ChartStyle.storageKey) private var chartStyleRaw = ChartStyle.titanium.rawValue
+    @Environment(\.scenePhase) private var scenePhase
 
     var body: some Scene {
         WindowGroup {
@@ -44,6 +45,10 @@ struct StrandApp: App {
                 // fixed-geometry tiles/gauges stay legible at the largest accessibility sizes rather than
                 // clipping; the common Larger-Text range still scales fully.
                 .dynamicTypeSize(...DynamicTypeSize.accessibility1)
+                .task { await WidgetSnapshot.publish(from: model) }
+                .onChangeCompat(of: scenePhase) { phase in
+                    if phase == .active { Task { await WidgetSnapshot.publish(from: model) } }
+                }
         }
         .windowStyle(.hiddenTitleBar)
         .defaultSize(width: 1180, height: 820)
