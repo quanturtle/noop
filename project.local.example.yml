@@ -1,0 +1,39 @@
+# Copy to project.local.yml (git-ignored), fill in your values, then generate a signed project with:
+#   xcodegen generate --spec project.local.yml
+# Restore the shared / ad-hoc project with:
+#   xcodegen generate
+#
+# Lets you build and sign every app under your own Apple ID without committing personal ids: the
+# committed com.noopapp.* ids belong to the upstream team, so signing under your own team needs ids
+# unique to you, and the App Groups must be ones your team can register. This overlay overrides ONLY
+# those; everything else is inherited from project.yml. Remove targets you don't build.
+include:
+  - project.yml
+settings:
+  base:
+    DEVELOPMENT_TEAM: YOURTEAMID            # Xcode ▸ Settings ▸ Accounts, or: security find-identity -v -p codesigning
+    APP_GROUP_ID: group.com.yourname.noop   # must start with "group."; Xcode registers it under your team
+targets:
+  Strand:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.noop
+  NOOPiOS:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.noop
+  NOOPiOSWidgets:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.noop.widgets
+  NOOPWatch:
+    info:
+      properties:
+        WKCompanionAppBundleIdentifier: com.yourname.noop   # must match NOOPiOS's bundle id
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.noop.watch
+  NOOPWatchComplications:
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yourname.noop.watch.complications

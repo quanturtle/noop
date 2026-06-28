@@ -5,6 +5,9 @@
 Icon?
 
 # ── Swift / Xcode ───────────────────────────────────────────────
+# Personal XcodeGen overlay for signed local builds (team / bundle ids / App Group). Copy from
+# project.local.example.yml; never committed so personal ids stay out of the shared spec.
+project.local.yml
 # Xcode project is generated from project.yml by XcodeGen — do not commit it.
 *.xcodeproj/
 *.xcworkspace/
