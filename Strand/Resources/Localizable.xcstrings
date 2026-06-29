@@ -26,6 +26,12 @@
             "state": "translated",
             "value": "—"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "—"
+          }
         }
       }
     },
@@ -50,6 +56,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "·"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "·"
@@ -82,6 +94,12 @@
             "state": "translated",
             "value": "· %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "· %@"
+          }
         }
       }
     },
@@ -106,6 +124,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "/ %lld"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "/ %lld"
@@ -138,6 +162,12 @@
             "state": "translated",
             "value": "% Max"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "% Máx"
+          }
         }
       }
     },
@@ -162,6 +192,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@"
@@ -194,6 +230,12 @@
             "state": "translated",
             "value": "%@ – %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ – %@"
+          }
         }
       }
     },
@@ -218,6 +260,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@ · %@"
@@ -250,6 +298,12 @@
             "state": "translated",
             "value": "%@ · n = %lld"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ · n = %lld"
+          }
         }
       }
     },
@@ -274,6 +328,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ / %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@ / %@"
@@ -306,6 +366,12 @@
             "state": "translated",
             "value": "%@ %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ %@"
+          }
         }
       }
     },
@@ -330,6 +396,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ ↔ %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@ ↔ %@"
@@ -362,6 +434,12 @@
             "state": "translated",
             "value": "%@ est gratuit et le sera toujours. S'il vous est utile, vous pouvez contribuer aux coûts de développement et de test. Totalement facultatif."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ es gratis y siempre lo será. Si te resulta útil, puedes contribuir a los costos de desarrollo y pruebas. Totalmente opcional."
+          }
         }
       }
     },
@@ -389,6 +467,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@ versus %@, r = %@, %lld jours"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ versus %@, r igual a %@, %lld días"
           }
         }
       }
@@ -418,6 +502,12 @@
             "state": "translated",
             "value": "%@ alertes au poignet"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Alertas de pulsera de %@"
+          }
         }
       }
     },
@@ -442,6 +532,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, %@%@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@, %@%@"
@@ -474,6 +570,12 @@
             "state": "translated",
             "value": "%@, corrélation %@, %lld jours"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, correlación %@, %lld días"
+          }
         }
       }
     },
@@ -501,6 +603,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%@, plage %@ à %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@, rango de %@ a %@"
           }
         }
       }
@@ -530,6 +638,12 @@
             "state": "translated",
             "value": "%@ : %@ la nuit dernière%@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: %@ anoche%@"
+          }
         }
       }
     },
@@ -554,6 +668,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@%@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%@%@"
@@ -586,6 +706,12 @@
             "state": "translated",
             "value": "%lld"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld"
+          }
         }
       }
     },
@@ -610,6 +736,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld / %lld"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld / %lld"
@@ -642,6 +774,12 @@
             "state": "translated",
             "value": "%lld app%@ sur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld app%@ activas"
+          }
         }
       }
     },
@@ -669,6 +807,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld respirations"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld respiraciones"
           }
         }
       }
@@ -698,6 +842,12 @@
             "state": "translated",
             "value": "%lld jours · %lld nuits stockées"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld días · %lld sueño almacenado"
+          }
         }
       }
     },
@@ -726,6 +876,12 @@
             "state": "translated",
             "value": "%lld trame%@ capturée cette séance."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld fotograma%@ capturados en esta sesión."
+          }
         }
       }
     },
@@ -750,6 +906,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld min"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "%lld min"
@@ -782,6 +944,12 @@
             "state": "translated",
             "value": "%lld de %lld nuits"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld de %lld noches"
+          }
         }
       }
     },
@@ -809,6 +977,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "%lld jours chevauchants · corrélation %@ %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld días solapados · correlación %@ %@"
           }
         }
       }
@@ -838,6 +1012,12 @@
             "state": "translated",
             "value": "%lld–%lld%@ · étape %lld"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld–%lld%@ · paso %lld"
+          }
         }
       }
     },
@@ -862,6 +1042,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "•"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "•"
@@ -894,6 +1080,12 @@
             "state": "translated",
             "value": "✓"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✓"
+          }
         }
       }
     },
@@ -921,6 +1113,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Une fenêtre privée sur votre récupération, sommeil et effort , lu directement depuis votre bracelet, conservé uniquement sur ce Mac."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Una ventana privada a tu recuperación, sueño y esfuerzo, leída directamente desde tu pulsera y guardada solo en esta Mac."
           }
         }
       }
@@ -950,6 +1148,12 @@
             "state": "translated",
             "value": "Un compagnon autonome pour votre WHOOP. Tout reste sur cet appareil , votre historique, votre flux en direct, vos chiffres. Rien n'est téléchargé. NOOP est un projet indépendant et expérimental, pas l'application WHOOP."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Un complemento independiente para tu WHOOP. Todo permanece en este dispositivo: tu historial, tu transmisión de datos, tus números. No se sube nada. NOOP es un proyecto independiente y experimental, no la app de WHOOP."
+          }
         }
       }
     },
@@ -977,6 +1181,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "À propos"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acerca de"
           }
         }
       }
@@ -1074,6 +1284,12 @@
             "state": "translated",
             "value": "Activité et énergie"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actividad y energía"
+          }
         }
       }
     },
@@ -1101,6 +1317,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Répartition de l'activité"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desglose de actividad"
           }
         }
       }
@@ -1130,6 +1352,12 @@
             "state": "translated",
             "value": "Charge d'entraînement aiguë (7 jours) vs chronique (28 jours). 0,8–1,3 est la zone idéale."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carga de entrenamiento aguda (7 días) frente a crónica (28 días). 0,8–1,3 es el rango ideal."
+          }
         }
       }
     },
@@ -1157,6 +1385,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ajouter une métrique à comparer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añade una métrica para comparar"
           }
         }
       }
@@ -1186,6 +1420,12 @@
             "state": "translated",
             "value": "Ajouter une métrique"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir métrica"
+          }
         }
       }
     },
@@ -1213,6 +1453,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Âge"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edad"
           }
         }
       }
@@ -1242,6 +1488,12 @@
             "state": "translated",
             "value": "Âge, %lld ans"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edad, %lld años"
+          }
         }
       }
     },
@@ -1269,6 +1521,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Toutes les séances"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todas las sesiones"
           }
         }
       }
@@ -1298,6 +1556,12 @@
             "state": "translated",
             "value": "TOUTES VOS DONNÉES · SANS LE CLOUD"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TODOS TUS DATOS · NADA EN LA NUBE"
+          }
         }
       }
     },
@@ -1325,6 +1589,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "toutes vos données, sans le cloud"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "todos tus datos, nada en la nube"
           }
         }
       }
@@ -1354,6 +1624,12 @@
             "state": "translated",
             "value": "Tout montant est utile. Merci , sincèrement."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cualquier cantidad ayuda. Gracias, de verdad."
+          }
         }
       }
     },
@@ -1382,6 +1658,12 @@
             "state": "translated",
             "value": "Clé API"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clave de API"
+          }
         }
       }
     },
@@ -1406,6 +1688,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Apple"
@@ -1438,6 +1726,12 @@
             "state": "translated",
             "value": "Apple Santé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple Health"
+          }
         }
       }
     },
@@ -1465,6 +1759,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Posez des questions sur votre récupération, effort, sommeil et entraînements , basées sur vos propres chiffres."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pregunta sobre tu recuperación, esfuerzo, sueño y entrenamientos, basados en tus propios números."
           }
         }
       }
@@ -1494,6 +1794,12 @@
             "state": "translated",
             "value": "Demandez à Coach à propos de vos données…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pregunta al Coach sobre tus datos…"
+          }
         }
       }
     },
@@ -1521,6 +1827,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Posez votre première question"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haz tu primera pregunta"
           }
         }
       }
@@ -1550,6 +1862,12 @@
             "state": "translated",
             "value": "Endormi"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dormido"
+          }
         }
       }
     },
@@ -1577,6 +1895,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Moy. endormi"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promedio dormido"
           }
         }
       }
@@ -1606,6 +1930,12 @@
             "state": "translated",
             "value": "Durée de sommeil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duración del sueño"
+          }
         }
       }
     },
@@ -1634,6 +1964,12 @@
             "state": "translated",
             "value": "En un coup d'œil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "De un vistazo"
+          }
         }
       }
     },
@@ -1658,6 +1994,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Auto"
@@ -1690,6 +2032,12 @@
             "state": "translated",
             "value": "Auto · %lld bpm (Tanaka)"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto · %lld ppm (Tanaka)"
+          }
         }
       }
     },
@@ -1717,6 +2065,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Automatisations"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatizaciones"
           }
         }
       }
@@ -1746,6 +2100,12 @@
             "state": "translated",
             "value": "Charge autonome à partir de la VFC et de la FC au repos"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Carga autonómica a partir de la VFC y frecuencia cardíaca en reposo"
+          }
         }
       }
     },
@@ -1773,6 +2133,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Moyenne"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Promedio"
           }
         }
       }
@@ -1836,6 +2202,12 @@
             "state": "translated",
             "value": "Éveillé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despierto"
+          }
         }
       }
     },
@@ -1863,6 +2235,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Retour"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atrás"
           }
         }
       }
@@ -1892,6 +2270,12 @@
             "state": "translated",
             "value": "Sauvegarde et restauration"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copia de seguridad y restauración"
+          }
         }
       }
     },
@@ -1919,6 +2303,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Batterie %lld%%"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Batería %lld%%"
           }
         }
       }
@@ -1948,6 +2338,12 @@
             "state": "translated",
             "value": "Batterie %lld%% · En charge"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Batería %lld%% · Cargando"
+          }
         }
       }
     },
@@ -1975,6 +2371,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effets comportementaux"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Efectos del comportamiento"
           }
         }
       }
@@ -2072,6 +2474,12 @@
             "state": "translated",
             "value": "IMC"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IMC"
+          }
         }
       }
     },
@@ -2099,6 +2507,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Composition corporelle"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Composición corporal"
           }
         }
       }
@@ -2128,6 +2542,12 @@
             "state": "translated",
             "value": "Graisse corporelle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa corporal"
+          }
         }
       }
     },
@@ -2155,6 +2575,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Graisse corporelle"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Grasa corporal"
           }
         }
       }
@@ -2184,6 +2610,12 @@
             "state": "translated",
             "value": "Associez votre bracelet sur l'écran En direct pour ressentir les transitions sans les mains."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vincula tu pulsera en la pantalla En vivo para sentir las transiciones sin usar las manos."
+          }
         }
       }
     },
@@ -2211,6 +2643,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "bpm"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ppm"
           }
         }
       }
@@ -2240,6 +2678,12 @@
             "state": "translated",
             "value": "BPM"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PPM"
+          }
         }
       }
     },
@@ -2267,6 +2711,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Respirer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Respira"
           }
         }
       }
@@ -2296,6 +2746,12 @@
             "state": "translated",
             "value": "Construction depuis votre bracelet"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Construyendo desde tu pulsera"
+          }
         }
       }
     },
@@ -2323,6 +2779,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Construit le"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Basado en"
           }
         }
       }
@@ -2352,6 +2814,12 @@
             "state": "translated",
             "value": "Signaux haptiques activés"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Avisos por vibración activados"
+          }
         }
       }
     },
@@ -2379,6 +2847,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vibrer le bracelet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibrar pulsera"
           }
         }
       }
@@ -2408,6 +2882,12 @@
             "state": "translated",
             "value": "Vibrez votre bracelet quand ces apps vous notifient. Tout fonctionne sur ce Mac."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haz vibrar tu pulsera cuando estas apps te notifiquen. Todo se ejecuta en esta Mac."
+          }
         }
       }
     },
@@ -2435,6 +2915,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vibre à votre poignet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibra en tu muñeca"
           }
         }
       }
@@ -2464,6 +2950,12 @@
             "state": "translated",
             "value": "Par sport"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Por deporte"
+          }
         }
       }
     },
@@ -2491,6 +2983,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Calendrier"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calendario"
           }
         }
       }
@@ -2554,6 +3052,12 @@
             "state": "translated",
             "value": "Temps calme"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiempo de calma"
+          }
         }
       }
     },
@@ -2616,6 +3120,12 @@
             "state": "translated",
             "value": "Cardiaque"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cardíaco"
+          }
         }
       }
     },
@@ -2643,6 +3153,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Catégorie"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Categoría"
           }
         }
       }
@@ -2672,6 +3188,12 @@
             "state": "translated",
             "value": "Choisir l'export…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir exportación…"
+          }
         }
       }
     },
@@ -2699,6 +3221,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Choisir export.zip…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir export.zip…"
           }
         }
       }
@@ -2728,6 +3256,12 @@
             "state": "translated",
             "value": "Choisir le schéma de vibration pour %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elige el patrón de vibración para %@"
+          }
         }
       }
     },
@@ -2755,6 +3289,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effacer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Borrar"
           }
         }
       }
@@ -2818,6 +3358,12 @@
             "state": "translated",
             "value": "Fermer l'assistance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cerrar soporte"
+          }
         }
       }
     },
@@ -2845,6 +3391,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coach"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenador"
           }
         }
       }
@@ -2874,6 +3426,12 @@
             "state": "translated",
             "value": "Coach réfléchit"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Entrenador está pensando"
+          }
         }
       }
     },
@@ -2901,6 +3459,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coach réfléchit…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Entrenador está pensando…"
           }
         }
       }
@@ -2930,6 +3494,12 @@
             "state": "translated",
             "value": "Coach lit un résumé de vos deux dernières semaines, les moyennes sur 30 jours et vos récents entraînements, puis répond en langage clair. Essayez une suggestion ci-dessous."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Entrenador lee un resumen de tus últimas dos semanas más los promedios de 30 días y los entrenamientos recientes, y luego responde en lenguaje sencillo. Prueba una sugerencia a continuación."
+          }
         }
       }
     },
@@ -2957,6 +3527,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Coach a dit : %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Entrenador dijo: %@"
           }
         }
       }
@@ -2986,6 +3562,12 @@
             "state": "translated",
             "value": "Coach utilise votre propre clé API. Choisissez un fournisseur, collez une clé et sélectionnez un modèle. Votre clé est stockée de façon sécurisée dans le trousseau macOS et ne quitte jamais votre Mac sauf pour la requête que vous effectuez."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El Entrenador usa tu propia clave de API. Elige un proveedor, pega una clave y elige un modelo. Tu clave se almacena de forma segura en el Llavero de macOS y nunca sale de tu Mac salvo como la solicitud que tú haces."
+          }
         }
       }
     },
@@ -3013,6 +3595,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Estimation de cohérence"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estimación de coherencia"
           }
         }
       }
@@ -3042,6 +3630,12 @@
             "state": "translated",
             "value": "En cours d'assemblage"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tomando forma"
+          }
         }
       }
     },
@@ -3069,6 +3663,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comparer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparar"
           }
         }
       }
@@ -3098,6 +3698,12 @@
             "state": "translated",
             "value": "Comparer nécessite au moins deux métriques avec un historique. Importez d'abord votre export WHOOP dans Sources de données."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparar necesita al menos dos métricas con historial. Importa primero tu exportación de WHOOP en Fuentes de datos."
+          }
         }
       }
     },
@@ -3125,6 +3731,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Terminé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Completo"
           }
         }
       }
@@ -3154,6 +3766,12 @@
             "state": "translated",
             "value": "Configurer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configurar"
+          }
         }
       }
     },
@@ -3181,6 +3799,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connecter un fournisseur"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar un proveedor"
           }
         }
       }
@@ -3210,6 +3834,12 @@
             "state": "translated",
             "value": "Connecter le bracelet pour les signaux haptiques"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectar la pulsera para avisos por vibración"
+          }
         }
       }
     },
@@ -3237,6 +3867,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connectez votre bracelet pour un guidage haptique , vous sentirez une impulsion à l'inspiration, deux à l'expiration, pour respirer les yeux fermés."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conecta tu pulsera para recibir guía háptica: sentirás un pulso al inhalar y dos al exhalar, para que puedas respirar con los ojos cerrados."
           }
         }
       }
@@ -3266,6 +3902,12 @@
             "state": "translated",
             "value": "Connectez votre bracelet pour activer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conecta tu pulsera para activarlo"
+          }
         }
       }
     },
@@ -3293,6 +3935,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Connectez votre bracelet pour tester"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conecta tu pulsera para probar"
           }
         }
       }
@@ -3356,6 +4004,12 @@
             "state": "translated",
             "value": "Connexion en cours…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectando…"
+          }
         }
       }
     },
@@ -3383,6 +4037,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Régularité"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consistencia"
           }
         }
       }
@@ -3412,6 +4072,12 @@
             "state": "translated",
             "value": "Centre de contrôle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Centro de control"
+          }
         }
       }
     },
@@ -3439,6 +4105,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copié !"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¡Copiado!"
           }
         }
       }
@@ -3468,6 +4140,12 @@
             "state": "translated",
             "value": "Copier"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar"
+          }
         }
       }
     },
@@ -3495,6 +4173,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Copier l'adresse %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar dirección de %@"
           }
         }
       }
@@ -3524,6 +4208,12 @@
             "state": "translated",
             "value": "Copier l'adresse"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copiar dirección"
+          }
         }
       }
     },
@@ -3552,6 +4242,12 @@
             "state": "translated",
             "value": "Traitement de vos flux bruts…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procesando tus flujos de datos…"
+          }
         }
       }
     },
@@ -3579,6 +4275,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "ID de modèle personnalisé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ID de modelo personalizado"
           }
         }
       }
@@ -3642,6 +4344,12 @@
             "state": "translated",
             "value": "Signaux quotidiens"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Señales diarias"
+          }
         }
       }
     },
@@ -3669,6 +4377,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sources de données"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuentes de datos"
           }
         }
       }
@@ -3698,6 +4412,12 @@
             "state": "translated",
             "value": "Date"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fecha"
+          }
         }
       }
     },
@@ -3725,6 +4445,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Effort du jour"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esfuerzo del día"
           }
         }
       }
@@ -3754,6 +4480,12 @@
             "state": "translated",
             "value": "Effort du jour"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esfuerzo del día"
+          }
         }
       }
     },
@@ -3781,6 +4513,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jours"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Días"
           }
         }
       }
@@ -3810,6 +4548,12 @@
             "state": "translated",
             "value": "Profond"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profundo"
+          }
         }
       }
     },
@@ -3837,6 +4581,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Épuisé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Agotado"
           }
         }
       }
@@ -3866,6 +4616,12 @@
             "state": "translated",
             "value": "Déconnecter"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desconectar"
+          }
         }
       }
     },
@@ -3893,6 +4649,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vous ne le voyez pas ? C'est normal."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿No lo ves? Es normal."
           }
         }
       }
@@ -3922,6 +4684,12 @@
             "state": "translated",
             "value": "Code QR de don"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código QR de donación"
+          }
         }
       }
     },
@@ -3949,6 +4717,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Taille d'effet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamaño del efecto"
           }
         }
       }
@@ -3978,6 +4752,12 @@
             "state": "translated",
             "value": "Efficacité"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eficiencia"
+          }
         }
       }
     },
@@ -4005,6 +4785,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "E-mail"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correo electrónico"
           }
         }
       }
@@ -4034,6 +4820,12 @@
             "state": "translated",
             "value": "Envoyer un e-mail à %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar correo a %@"
+          }
         }
       }
     },
@@ -4061,6 +4853,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activer les alertes au poignet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activar alertas de muñeca"
           }
         }
       }
@@ -4090,6 +4888,12 @@
             "state": "translated",
             "value": "Entrez un ID de modèle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Introduce un ID de modelo"
+          }
         }
       }
     },
@@ -4117,6 +4921,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Erreur : %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error: %@"
           }
         }
       }
@@ -4146,6 +4956,12 @@
             "state": "translated",
             "value": "Estimation uniquement , un RMSSD plus élevé lors d'un rythme imposé signifie généralement que votre branche parasympathique de « repos » s'engage. Ce n'est pas une lecture clinique ; les tendances sur une séance comptent plus que chaque chiffre seul."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo una estimación: un RMSSD más alto durante la respiración pausada suele indicar que tu rama parasimpática de «descanso» se está activando. No es una lectura clínica; las tendencias a lo largo de una sesión importan más que cualquier número aislado."
+          }
         }
       }
     },
@@ -4173,6 +4989,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "FC max estimée · %lld bpm"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuencia cardíaca máxima estimada · %lld ppm"
           }
         }
       }
@@ -4202,6 +5024,12 @@
             "state": "translated",
             "value": "Chaque battement, chaque nuit, chaque jour , tissé en un portrait silencieux de vous. Bienvenue dans NOOP."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada latido, cada noche, cada día, entrelazados en una imagen serena de ti. Bienvenido a NOOP."
+          }
         }
       }
     },
@@ -4229,6 +5057,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chaque séance, reliée ensemble."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada sesión, hilada con las demás."
           }
         }
       }
@@ -4258,6 +5092,12 @@
             "state": "translated",
             "value": "Chaque signal, à un tap."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cada señal, a un toque de distancia."
+          }
         }
       }
     },
@@ -4285,6 +5125,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tout reste sur ce Mac. Importez votre historique une fois, il est à vous."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Todo permanece en esta Mac. Importa tu historial una vez y será tuyo."
           }
         }
       }
@@ -4314,6 +5160,12 @@
             "state": "translated",
             "value": "Expérimental · WHOOP 5 / MG"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Experimental · WHOOP 5 / MG"
+          }
         }
       }
     },
@@ -4341,6 +5193,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "EXPLORATOIRE"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "EXPLORATORIO"
           }
         }
       }
@@ -4404,6 +5262,12 @@
             "state": "translated",
             "value": "Exporter les trames…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar fotogramas…"
+          }
         }
       }
     },
@@ -4431,6 +5295,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Exporter…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Exportar…"
           }
         }
       }
@@ -4460,6 +5330,12 @@
             "state": "translated",
             "value": "Féminin"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mujer"
+          }
         }
       }
     },
@@ -4487,6 +5363,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Récupérer les modèles disponibles depuis %@ avec votre clé enregistrée"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtén los modelos disponibles de %@ con tu clave guardada"
           }
         }
       }
@@ -4516,6 +5398,12 @@
             "state": "translated",
             "value": "Retrouvez-le dans la barre latérale sous Sources de données."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encuéntralo en la barra lateral, en Fuentes de datos."
+          }
         }
       }
     },
@@ -4543,6 +5431,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Envoyer une impulsion haptique sur le bracelet (nécessite une connexion associée)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emite un único pulso háptico en la pulsera (requiere una conexión vinculada)"
           }
         }
       }
@@ -4572,6 +5466,12 @@
             "state": "translated",
             "value": "Envoyer une vibration test maintenant"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emitir una vibración de prueba ahora"
+          }
         }
       }
     },
@@ -4599,6 +5499,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Envoyer une vibration haptique test sur le bracelet (nécessite une connexion active)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emite una vibración háptica de prueba en la pulsera (requiere una conexión activa con la correa)"
           }
         }
       }
@@ -4628,6 +5534,12 @@
             "state": "translated",
             "value": "Envoie une vibration test sur votre bracelet"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Emite una vibración de prueba en tu pulsera"
+          }
         }
       }
     },
@@ -4655,6 +5567,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Oublier la clé enregistrée et déconnecter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Olvidar la clave guardada y desconectar"
           }
         }
       }
@@ -4684,6 +5602,12 @@
             "state": "translated",
             "value": "De"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desde"
+          }
         }
       }
     },
@@ -4712,6 +5636,12 @@
             "state": "translated",
             "value": "Nous contacter"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ponte en contacto"
+          }
         }
       }
     },
@@ -4739,6 +5669,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Obtenir la dernière version"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obtén la última versión"
           }
         }
       }
@@ -4802,6 +5738,12 @@
             "state": "translated",
             "value": "Respiration rythmée haptiquement · observez votre VFC réagir"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Respiración guiada por hápticos · observa cómo responde tu VFC"
+          }
         }
       }
     },
@@ -4829,6 +5771,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Haptiques activés"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hápticos activados"
           }
         }
       }
@@ -4892,6 +5840,12 @@
             "state": "translated",
             "value": "Moniteur de santé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitor de salud"
+          }
         }
       }
     },
@@ -4919,6 +5873,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Cœur et constantes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Corazón y signos vitales"
           }
         }
       }
@@ -4948,6 +5908,12 @@
             "state": "translated",
             "value": "Fréquence cardiaque"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuencia cardíaca"
+          }
         }
       }
     },
@@ -4975,6 +5941,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "FRÉQUENCE CARDIAQUE"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FRECUENCIA CARDÍACA"
           }
         }
       }
@@ -5004,6 +5976,12 @@
             "state": "translated",
             "value": "Fréquence cardiaque %lld battements par minute"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuencia cardíaca %lld latidos por minuto"
+          }
         }
       }
     },
@@ -5031,6 +6009,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Variabilité de la fréquence cardiaque"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Variabilidad de la frecuencia cardíaca"
           }
         }
       }
@@ -5060,6 +6044,12 @@
             "state": "translated",
             "value": "Taille"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Altura"
+          }
         }
       }
     },
@@ -5087,6 +6077,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "élevé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "alta"
           }
         }
       }
@@ -5116,6 +6112,12 @@
             "state": "translated",
             "value": "Historique"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial"
+          }
         }
       }
     },
@@ -5143,6 +6145,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Historique synchronisé %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historial sincronizado %@"
           }
         }
       }
@@ -5172,6 +6180,12 @@
             "state": "translated",
             "value": "Heures de sommeil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horas dormidas"
+          }
         }
       }
     },
@@ -5199,6 +6213,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Heures vs nécessaires"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horas vs Horas Necesarias"
           }
         }
       }
@@ -5228,6 +6248,12 @@
             "state": "translated",
             "value": "Comment ils évoluent ensemble"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo se mueven juntas"
+          }
         }
       }
     },
@@ -5255,6 +6281,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Comment c'est calculé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo se calcula esto"
           }
         }
       }
@@ -5284,6 +6316,12 @@
             "state": "translated",
             "value": "Comment ça fonctionne"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cómo funciona esto"
+          }
         }
       }
     },
@@ -5311,6 +6349,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zones FC"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zonas de FC"
           }
         }
       }
@@ -5374,6 +6418,12 @@
             "state": "translated",
             "value": "Je maintiens ce projet anonyme, donc la crypto est le seul moyen de contribuer , pas de Patreon, pas de PayPal, pas de nom attaché. Rapide, mondial et privé pour nous deux."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mantengo este proyecto de forma anónima, así que las criptomonedas son la única forma de contribuir: sin Patreon, sin PayPal, sin nombres. Rápido, global y privado para ambos."
+          }
         }
       }
     },
@@ -5401,6 +6451,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Importez d'abord votre historique. Un export WHOOP dans Sources de données remplit toutes les métriques que vous pouvez explorer ici en environ une minute."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importa primero tu historial. Una exportación de WHOOP en Fuentes de datos rellena en aproximadamente un minuto todas las métricas que puedes explorar aquí."
           }
         }
       }
@@ -5430,6 +6486,12 @@
             "state": "translated",
             "value": "Importer…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar…"
+          }
         }
       }
     },
@@ -5457,6 +6519,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "L'importation écrase tout ce qui se trouve actuellement sur ce Mac. Vos anciennes données sont conservées dans un fichier annexe au cas où. NOOP doit être relancé pour qu'une importation prenne effet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importar sobrescribe todo lo que hay actualmente en este Mac. Tus datos antiguos se guardan en un archivo aparte por si acaso. NOOP necesita reiniciarse para que una importación tenga efecto."
           }
         }
       }
@@ -5520,6 +6588,12 @@
             "state": "translated",
             "value": "Perspectives"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Análisis"
+          }
         }
       }
     },
@@ -5547,6 +6621,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Les perspectives lisent votre journal et vos résultats. Importez votre export WHOOP, qui inclut votre journal, dans Sources de données pour les débloquer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Los análisis leen tu diario y tus resultados. Importa tu exportación de WHOOP, que incluye tu diario, en Fuentes de datos para desbloquearlos."
           }
         }
       }
@@ -5576,6 +6656,12 @@
             "state": "translated",
             "value": "Intelligence"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inteligencia"
+          }
         }
       }
     },
@@ -5603,6 +6689,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Interrogez ce qui affecte quoi."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Investiga qué afecta a qué."
           }
         }
       }
@@ -5632,6 +6724,12 @@
             "state": "translated",
             "value": "Minuteur d'intervalle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Temporizador de intervalos"
+          }
         }
       }
     },
@@ -5660,6 +6758,12 @@
             "state": "translated",
             "value": "Intervalles"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Intervalos"
+          }
         }
       }
     },
@@ -5687,6 +6791,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Métriques clés"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métricas clave"
           }
         }
       }
@@ -5750,6 +6860,12 @@
             "state": "translated",
             "value": "La nuit dernière, lu en deux secondes."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anoche, resumido en dos segundos."
+          }
         }
       }
     },
@@ -5777,6 +6893,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Derniers entraînements"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Últimos entrenamientos"
           }
         }
       }
@@ -5806,6 +6928,12 @@
             "state": "translated",
             "value": "Dernier"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más reciente"
+          }
         }
       }
     },
@@ -5833,6 +6961,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dernière lecture"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Última lectura"
           }
         }
       }
@@ -5862,6 +6996,12 @@
             "state": "translated",
             "value": "Masse corporelle maigre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masa corporal magra"
+          }
         }
       }
     },
@@ -5889,6 +7029,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masse maigre"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masa magra"
           }
         }
       }
@@ -5918,6 +7064,12 @@
             "state": "translated",
             "value": "Apprentissage de votre référence , %lld de %lld nuits."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aprendiendo tu línea base: %lld de %lld noches."
+          }
         }
       }
     },
@@ -5946,6 +7098,12 @@
             "state": "translated",
             "value": "Laisser le coach utiliser mes données"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permitir que el entrenador use mis datos"
+          }
         }
       }
     },
@@ -5973,6 +7131,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Léger"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ligero"
           }
         }
       }
@@ -6036,6 +7200,12 @@
             "state": "translated",
             "value": "La fréquence cardiaque en direct fonctionne déjà sur un bracelet WHOOP 5/MG. Ces sondes vont plus loin et essaient d'en extraire davantage. Ce sont des estimations, désactivées par défaut, et elles ne touchent jamais qu'un bracelet 5/MG , le WHOOP 4.0 n'est jamais affecté."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La frecuencia cardíaca en vivo ya funciona en una pulsera WHOOP 5/MG. Estas pruebas van más allá e intentan sacarle más beneficio. Son conjeturas, están desactivadas por defecto y solo afectan a una correa 5/MG: la WHOOP 4.0 nunca se ve afectada."
+          }
         }
       }
     },
@@ -6063,6 +7233,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "En direct maintenant. Vos scores se construisent."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En vivo ahora. Tus puntuaciones se están construyendo."
           }
         }
       }
@@ -6092,6 +7268,12 @@
             "state": "translated",
             "value": "Constantes en direct, diffusées depuis le bracelet."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Constantes vitales en vivo, transmitidas desde la correa."
+          }
         }
       }
     },
@@ -6119,6 +7301,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "charge %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "carga %@"
           }
         }
       }
@@ -6148,6 +7336,12 @@
             "state": "translated",
             "value": "Chargement de votre historique…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando tu historial…"
+          }
         }
       }
     },
@@ -6175,6 +7369,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Chargement de vos séances…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando tus sesiones…"
           }
         }
       }
@@ -6204,6 +7404,12 @@
             "state": "translated",
             "value": "Chargement de votre historique de sommeil…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cargando tu historial de sueño…"
+          }
         }
       }
     },
@@ -6232,6 +7438,12 @@
             "state": "translated",
             "value": "Journal"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Diario"
+          }
         }
       }
     },
@@ -6259,6 +7471,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "faible"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "baja"
           }
         }
       }
@@ -6322,6 +7540,12 @@
             "state": "translated",
             "value": "Faites faire des choses au bracelet , tapez pour agir, éloignez-vous pour verrouiller, entraînez-vous au ressenti."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Haz que la correa haga cosas: toca para actuar, aléjate para bloquear, entrena por sensaciones."
+          }
         }
       }
     },
@@ -6349,6 +7573,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Masculin"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hombre"
           }
         }
       }
@@ -6378,6 +7608,12 @@
             "state": "translated",
             "value": "Remplacement manuel"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anulación manual"
+          }
         }
       }
     },
@@ -6405,6 +7641,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Marqueurs"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Marcadores"
           }
         }
       }
@@ -6434,6 +7676,12 @@
             "state": "translated",
             "value": "Max"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máx"
+          }
         }
       }
     },
@@ -6461,6 +7709,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Max 4"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Máx 4"
           }
         }
       }
@@ -6490,6 +7744,12 @@
             "state": "translated",
             "value": "Fréquence cardiaque maximale"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuencia cardíaca máxima"
+          }
         }
       }
     },
@@ -6517,6 +7777,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Remplacement FC max"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anulación de la frecuencia cardíaca máxima"
           }
         }
       }
@@ -6546,6 +7812,12 @@
             "state": "translated",
             "value": "Remplacement FC max, %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anulación de la frecuencia cardíaca máxima, %@"
+          }
         }
       }
     },
@@ -6573,6 +7845,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "FC max"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FC máx"
           }
         }
       }
@@ -6602,6 +7880,12 @@
             "state": "translated",
             "value": "Moyenne %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Media %@"
+          }
         }
       }
     },
@@ -6629,6 +7913,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Métrique"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métrica"
           }
         }
       }
@@ -6658,6 +7948,12 @@
             "state": "translated",
             "value": "Relations entre métriques"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Relaciones entre métricas"
+          }
         }
       }
     },
@@ -6685,6 +7981,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Métriques"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métricas"
           }
         }
       }
@@ -6714,6 +8016,12 @@
             "state": "translated",
             "value": "moyen"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "media"
+          }
         }
       }
     },
@@ -6741,6 +8049,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Min"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mín"
           }
         }
       }
@@ -6770,6 +8084,12 @@
             "state": "translated",
             "value": "Modèle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Modelo"
+          }
         }
       }
     },
@@ -6797,6 +8117,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le plus actif"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más activo"
           }
         }
       }
@@ -6826,6 +8152,12 @@
             "state": "translated",
             "value": "Transférez toutes vos données NOOP vers une autre machine. L'export sauvegarde tout , historique, nuits, entraînements, paramètres , dans un seul fichier à copier ; l'import remplace les données de ce Mac par une sauvegarde."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mueve todos tus datos de NOOP a otra máquina. La exportación guarda todo , historial, sueños, entrenamientos, ajustes , en un único archivo que puedes copiar; la importación reemplaza los datos de este Mac con una copia de seguridad."
+          }
         }
       }
     },
@@ -6854,6 +8186,12 @@
             "state": "translated",
             "value": "Mouvement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movimiento"
+          }
         }
       }
     },
@@ -6878,6 +8216,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "n.s."
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "n.s."
@@ -6910,6 +8254,12 @@
             "state": "translated",
             "value": "Détail de nuit"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detalle de la noche"
+          }
         }
       }
     },
@@ -6937,6 +8287,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Nuits"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Noches"
           }
         }
       }
@@ -6966,6 +8322,12 @@
             "state": "translated",
             "value": "Pas encore de données biométriques. Importez votre export WHOOP (et Apple Santé si vous l'avez) dans Sources de données pour les compléter."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay datos biométricos. Importa tu exportación de WHOOP (y Apple Health si lo tienes) en Fuentes de datos para rellenar esto."
+          }
         }
       }
     },
@@ -6993,6 +8355,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas de données"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin datos"
           }
         }
       }
@@ -7022,6 +8390,12 @@
             "state": "translated",
             "value": "PAS DE DONNÉES"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SIN DATOS"
+          }
         }
       }
     },
@@ -7049,6 +8423,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas de données pour ces métriques dans %@. Élargissez la plage ou choisissez des métriques que vous avez enregistrées."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay datos para estas métricas en %@. Amplía el rango o elige métricas que hayas registrado."
           }
         }
       }
@@ -7078,6 +8458,12 @@
             "state": "translated",
             "value": "Pas encore de nuits ici. Importez votre export WHOOP dans Sources de données pour voir chaque nuit, vos stades de sommeil et tendances immédiatement. Ou ouvrez Intelligence pour voir la nuit dernière calculée depuis le bracelet après l'avoir porté au lit."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay noches aquí. Importa tu exportación de WHOOP en Fuentes de datos para ver cada noche, tus fases de sueño y tendencias de inmediato. O abre Inteligencia para ver la noche anterior calculada desde la pulsera después de llevarla puesta a dormir."
+          }
         }
       }
     },
@@ -7105,6 +8491,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Aucune lecture enregistrée."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No se registraron lecturas."
           }
         }
       }
@@ -7134,6 +8526,12 @@
             "state": "translated",
             "value": "Pas encore d'historique de stress. Importez votre export WHOOP dans Sources de données pour le voir."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay historial de estrés. Importa tu exportación de WHOOP en Fuentes de datos para verlo."
+          }
         }
       }
     },
@@ -7161,6 +8559,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore d'entraînements. Ils proviennent de votre historique WHOOP et Apple Santé. Importez dans Sources de données pour les intégrer."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay entrenamientos. Provienen de tu historial de WHOOP y Apple Health. Impórtalos en Fuentes de datos para añadirlos."
           }
         }
       }
@@ -7190,6 +8594,12 @@
             "state": "translated",
             "value": "Non-binaire"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No binario"
+          }
         }
       }
     },
@@ -7214,6 +8624,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "NOOP"
@@ -7246,6 +8662,12 @@
             "state": "translated",
             "value": "NOOP , toutes vos données, sans le cloud."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP: todos tus datos, nada en la nube."
+          }
         }
       }
     },
@@ -7270,6 +8692,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "NOOP %@"
@@ -7302,6 +8730,12 @@
             "state": "translated",
             "value": "NOOP est et sera toujours gratuit, rien n'est verrouillé. Il m'a coûté de l'argent et beaucoup d'heures non rémunérées à construire, et il y a une app Windows, une app Android et une app iOS que je veux livrer ensuite. Si cela vous est utile et que vous voulez aider avec les coûts de développement et de test, même quelques euros en crypto maintient vraiment le projet en vie, et honnêtement ça me motive à continuer."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP es gratis y siempre lo será, nada está bloqueado. Cuesta dinero real y muchas horas no remuneradas construirlo, y hay una app para Windows, una para Android y una para iOS que quiero lanzar a continuación. Si te resulta útil y quieres ayudar con los costes de desarrollo y pruebas, incluso unos pocos euros en cripto realmente lo mantienen en marcha y, sinceramente, me mantienen motivado para seguir construyendo."
+          }
         }
       }
     },
@@ -7329,6 +8763,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "NOOP n'est pas un dispositif médical. Il est destiné uniquement à des fins d'information et d'introspection personnelle et n'est pas conçu pour diagnostiquer, traiter, guérir ou prévenir une condition. Consultez un clinicien pour des conseils médicaux."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP no es un dispositivo médico. Es solo para fines informativos y de conocimiento personal, y no está destinado a diagnosticar, tratar, curar ni prevenir ninguna afección. Consulta a un profesional médico para obtener consejo médico."
           }
         }
       }
@@ -7358,6 +8798,12 @@
             "state": "translated",
             "value": "NOOP se connecte directement à votre WHOOP via Bluetooth , sans app WHOOP, sans cloud."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP se conecta directamente con tu WHOOP por Bluetooth: sin app de WHOOP, sin nube."
+          }
         }
       }
     },
@@ -7385,6 +8831,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "NOOP calcule lui-même votre récupération, effort et sommeil , sur l'appareil, sans cloud."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOOP calcula tu recuperación, esfuerzo y sueño por sí mismo: en el dispositivo, sin nube."
           }
         }
       }
@@ -7414,6 +8866,12 @@
             "state": "translated",
             "value": "Calculé par NOOP"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calculado por NOOP"
+          }
         }
       }
     },
@@ -7441,6 +8899,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Normalisé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Normalizado"
           }
         }
       }
@@ -7470,6 +8934,12 @@
             "state": "translated",
             "value": "Superposition normalisée"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superposición normalizada"
+          }
         }
       }
     },
@@ -7497,6 +8967,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Non affilié à, approuvé par ou connecté à WHOOP. Logiciel d'interopérabilité pour le matériel que vous possédez et vos propres données. Utilisez-le uniquement avec un appareil que vous possédez et sans enfreindre aucun accord qui vous est applicable. Pas un dispositif médical."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No está afiliado, respaldado ni conectado a WHOOP. Software de interoperabilidad para hardware que posees y tus propios datos. Úsalo solo con un dispositivo que poseas y sin incumplir ningún acuerdo que te sea aplicable. No es un dispositivo médico."
           }
         }
       }
@@ -7526,6 +9002,12 @@
             "state": "translated",
             "value": "Pas assez de données pour cette fenêtre."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay suficientes datos para esta ventana."
+          }
         }
       }
     },
@@ -7553,6 +9035,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore assez de nuits."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay suficientes noches."
           }
         }
       }
@@ -7582,6 +9070,12 @@
             "state": "translated",
             "value": "Pas assez de jours chevauchants entre ces métriques dans %@. Élargissez la plage."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No hay suficientes días solapados entre estas métricas en %@. Amplía el rango."
+          }
         }
       }
     },
@@ -7609,6 +9103,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore assez d'historique chevauchant pour corréler vos métriques."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay suficiente historial solapado para correlacionar tus métricas."
           }
         }
       }
@@ -7638,6 +9138,12 @@
             "state": "translated",
             "value": "Pas encore assez de jours récents pour tracer une tendance. Importez un historique ou continuez à porter votre bracelet."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay suficientes días recientes para trazar una tendencia. Importa un historial o sigue llevando tu pulsera."
+          }
         }
       }
     },
@@ -7665,6 +9171,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pas encore synchronisé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no sincronizado"
           }
         }
       }
@@ -7694,6 +9206,12 @@
             "state": "translated",
             "value": "Rien d'importé encore. Sur iPhone : app Santé, tapez votre photo, Exporter toutes les données de santé, puis importez le .zip ici dans Sources de données."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no se ha importado nada. En un iPhone: app Salud, toca tu foto, Exportar todos los datos de salud y luego importa el .zip aquí en Fuentes de datos."
+          }
         }
       }
     },
@@ -7721,6 +9239,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Rien dans le catalogue n'évolue clairement avec %@ sur cette fenêtre. Élargissez la plage pour faire apparaître des relations."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nada en el catálogo se mueve claramente con %@ en esta ventana. Amplía el rango para revelar relaciones."
           }
         }
       }
@@ -7750,6 +9274,12 @@
             "state": "translated",
             "value": "Rien de sélectionné encore."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aún no hay nada seleccionado."
+          }
         }
       }
     },
@@ -7778,6 +9308,12 @@
             "state": "translated",
             "value": "Notifications"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notificaciones"
+          }
         }
       }
     },
@@ -7802,6 +9338,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "de 3 · %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "de 3 · %@"
@@ -7834,6 +9376,12 @@
             "state": "translated",
             "value": "Désactivé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado"
+          }
         }
       }
     },
@@ -7861,6 +9409,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Désactivé , le coach répond de manière générale et n'envoie aucune de vos métriques."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desactivado: el entrenador responde de forma general y no envía ninguna de tus métricas."
           }
         }
       }
@@ -7890,6 +9444,12 @@
             "state": "translated",
             "value": "OK"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Aceptar"
+          }
         }
       }
     },
@@ -7917,6 +9477,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Activé , votre récupération, sommeil, VFC et entraînements sont partagés avec le fournisseur pour un coaching personnalisé."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activado: tu recuperación, sueño, VFC y entrenamientos se comparten con el proveedor para un asesoramiento personalizado."
           }
         }
       }
@@ -7946,6 +9512,12 @@
             "state": "translated",
             "value": "Sur une connexion 5/MG, NOOP enverra une requête de flux temps réel puffin après la poignée de main et journalisera ce qui revient. Si vous avez un bracelet 5/MG, activer ceci et partager votre journal de bracelet aide à cartographier le protocole. Aucun effet sur le WHOOP 4.0."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En una conexión 5/MG, NOOP enviará una solicitud de transmisión en tiempo real «puffin» tras el handshake y registrará lo que reciba. Si tienes una correa 5/MG, activar esto y compartir el registro de tu correa ayuda a mapear el protocolo. No afecta a la WHOOP 4.0."
+          }
         }
       }
     },
@@ -7973,6 +9545,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Travail de rétro-ingénierie BLE open-source. Merci."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trabajo de ingeniería inversa de BLE de código abierto. Gracias."
           }
         }
       }
@@ -8002,6 +9580,12 @@
             "state": "translated",
             "value": "Ouvre la page des versions GitHub dans votre navigateur. NOOP lui-même n'effectue aucune connexion réseau , le bac à sable macOS n'a pas de droit réseau."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abre la página de versiones de GitHub en tu navegador. NOOP en sí no realiza conexiones de red: el sandbox de macOS no tiene permiso de red."
+          }
         }
       }
     },
@@ -8029,6 +9613,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Métrique de résultat"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Métrica de resultado"
           }
         }
       }
@@ -8058,6 +9648,12 @@
             "state": "translated",
             "value": "Superposition"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superposición"
+          }
         }
       }
     },
@@ -8085,6 +9681,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Superposer 2–4 signaux"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superpón 2–4 señales"
           }
         }
       }
@@ -8114,6 +9716,12 @@
             "state": "translated",
             "value": "Superposez les signaux, tirez des conclusions."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Superpón señales, saca conclusiones."
+          }
         }
       }
     },
@@ -8138,6 +9746,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "p < 0,05"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "p < 0,05"
@@ -8170,6 +9784,12 @@
             "state": "translated",
             "value": "Collez votre clé API %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pega tu clave de API de %@"
+          }
         }
       }
     },
@@ -8197,6 +9817,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pause"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pausar"
           }
         }
       }
@@ -8226,6 +9852,12 @@
             "state": "translated",
             "value": "En pause"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En pausa"
+          }
         }
       }
     },
@@ -8253,6 +9885,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pic"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pico"
           }
         }
       }
@@ -8282,6 +9920,12 @@
             "state": "translated",
             "value": "Au sommet"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "En su pico"
+          }
         }
       }
     },
@@ -8309,6 +9953,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pearson r"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r de Pearson"
           }
         }
       }
@@ -8338,6 +9988,12 @@
             "state": "translated",
             "value": "Pearson r · %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r de Pearson · %@"
+          }
         }
       }
     },
@@ -8365,6 +10021,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Pearson r sur la fenêtre visible · |r| ≥ 0,30, n ≥ 10"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r de Pearson sobre la ventana visible · |r| ≥ 0,30, n ≥ 10"
           }
         }
       }
@@ -8428,6 +10090,12 @@
             "state": "translated",
             "value": "Profil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perfil"
+          }
         }
       }
     },
@@ -8455,6 +10123,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Provenance"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Procedencia"
           }
         }
       }
@@ -8484,6 +10158,12 @@
             "state": "translated",
             "value": "Fournisseur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proveedor"
+          }
         }
       }
     },
@@ -8511,6 +10191,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Question"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pregunta"
           }
         }
       }
@@ -8540,6 +10226,12 @@
             "state": "translated",
             "value": "Questions, retours, bugs , %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preguntas, comentarios, errores, %@"
+          }
         }
       }
     },
@@ -8567,6 +10259,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fin des heures silencieuses"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fin de las horas de silencio"
           }
         }
       }
@@ -8596,6 +10294,12 @@
             "state": "translated",
             "value": "Début des heures silencieuses"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inicio de las horas de silencio"
+          }
         }
       }
     },
@@ -8620,6 +10324,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "r = %@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "r = %@"
@@ -8652,6 +10362,12 @@
             "state": "translated",
             "value": "Nouveau scan"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver a escanear"
+          }
         }
       }
     },
@@ -8679,6 +10395,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Préparation"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparación"
           }
         }
       }
@@ -8708,6 +10430,12 @@
             "state": "translated",
             "value": "Lecture de votre %@…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo tu %@…"
+          }
         }
       }
     },
@@ -8735,6 +10463,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lecture de votre historique Apple Santé…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo tu historial de Apple Health…"
           }
         }
       }
@@ -8764,6 +10498,12 @@
             "state": "translated",
             "value": "Lecture de votre variabilité de la fréquence cardiaque et FC au repos…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo tu variabilidad de la frecuencia cardíaca y tu frecuencia cardíaca en reposo…"
+          }
         }
       }
     },
@@ -8791,6 +10531,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Lecture de votre historique…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo tu historial…"
           }
         }
       }
@@ -8820,6 +10566,12 @@
             "state": "translated",
             "value": "Lecture de votre journal et résultats…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Leyendo tu diario y tus resultados…"
+          }
         }
       }
     },
@@ -8847,6 +10599,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Prêt"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo"
           }
         }
       }
@@ -8876,6 +10634,12 @@
             "state": "translated",
             "value": "Prêt à scanner"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Listo para escanear"
+          }
         }
       }
     },
@@ -8903,6 +10667,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Moments récents"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Momentos recientes"
           }
         }
       }
@@ -8932,6 +10702,12 @@
             "state": "translated",
             "value": "Recalculer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recalcular"
+          }
         }
       }
     },
@@ -8959,6 +10735,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer les trames puffin dans un fichier"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Graba fotogramas puffin en un archivo"
           }
         }
       }
@@ -8988,6 +10770,12 @@
             "state": "translated",
             "value": "Récupération"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recuperación"
+          }
         }
       }
     },
@@ -9015,6 +10803,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "La récupération pondère votre VFC par rapport à votre référence personnelle (~60%), fréquence cardiaque au repos (~20%), performance du sommeil (~15%) et respiration (~5%). L'effort du jour est une charge cardiovasculaire de 0 à 21 basée sur le temps dans les zones de fréquence cardiaque. Le sommeil est stagé à partir du mouvement et de la fréquence cardiaque. Tout est calculé ici à partir des données brutes du bracelet , cela fonctionne pour chaque jour où NOOP a collecté des flux bruts."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La recuperación pondera tu VFC frente a tu línea base personal (~60%), la frecuencia cardíaca en reposo (~20%), el rendimiento del sueño (~15%) y la respiración (~5%). El esfuerzo del día es una carga cardiovascular de 0–21 según el tiempo en zonas de frecuencia cardíaca. El sueño se clasifica a partir del movimiento y la frecuencia cardíaca. Todo se calcula aquí a partir de los datos en bruto de la pulsera: funciona para cualquier día en el que NOOP recopiló flujos en bruto."
           }
         }
       }
@@ -9044,6 +10838,12 @@
             "state": "translated",
             "value": "Actualiser les modèles"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar modelos"
+          }
         }
       }
     },
@@ -9072,6 +10872,12 @@
             "state": "translated",
             "value": "Actualiser les modèles depuis le fournisseur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Actualizar modelos desde el proveedor"
+          }
         }
       }
     },
@@ -9096,6 +10902,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "REM"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "REM"
@@ -9128,6 +10940,12 @@
             "state": "translated",
             "value": "Supprimer %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eliminar %@"
+          }
         }
       }
     },
@@ -9155,6 +10973,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer"
           }
         }
       }
@@ -9184,6 +11008,12 @@
             "state": "translated",
             "value": "Réinitialiser la clé API"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer clave de API"
+          }
         }
       }
     },
@@ -9211,6 +11041,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réinitialiser la clé"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restablecer clave"
           }
         }
       }
@@ -9274,6 +11110,12 @@
             "state": "translated",
             "value": "Fréquence respiratoire"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Frecuencia respiratoria"
+          }
         }
       }
     },
@@ -9335,6 +11177,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Redémarrer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reiniciar"
           }
         }
       }
@@ -9432,6 +11280,12 @@
             "state": "translated",
             "value": "Réparateur"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reparador"
+          }
         }
       }
     },
@@ -9460,6 +11314,12 @@
             "state": "translated",
             "value": "Afficher dans le Finder"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar en Finder"
+          }
         }
       }
     },
@@ -9487,6 +11347,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "CYCLE"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RONDA"
           }
         }
       }
@@ -9550,6 +11416,12 @@
             "state": "translated",
             "value": "Enregistrer la clé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar clave"
+          }
         }
       }
     },
@@ -9577,6 +11449,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Enregistrer…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guardar…"
           }
         }
       }
@@ -9606,6 +11484,12 @@
             "state": "translated",
             "value": "Enregistre chaque trame brute 5/MG (avec un horodatage et la fréquence cardiaque en direct) dans un fichier JSON que vous pouvez partager pour aider à cartographier la disposition biométrique. Cela n'enregistre que les trames que le bracelet a déjà envoyées , il n'écrit jamais sur votre bracelet , il est donc sans danger de le laisser activé. Exportez le fichier et joignez-le à une issue de cartographie de protocole."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Guarda cada fotograma en bruto 5/MG (con una marca de tiempo y la frecuencia cardíaca en vivo) en un archivo JSON que puedes compartir para ayudar a mapear la disposición biométrica. Esto solo registra los fotogramas que la correa ya envió, nunca escribe en tu correa, así que es seguro dejarlo activado. Exporta el archivo y adjúntalo a un issue de mapeo del protocolo."
+          }
         }
       }
     },
@@ -9633,6 +11517,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scanner"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escanear"
           }
         }
       }
@@ -9662,6 +11552,12 @@
             "state": "translated",
             "value": "Scanner et connecter"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escanear y conectar"
+          }
         }
       }
     },
@@ -9689,6 +11585,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Scanner avec n'importe quel portefeuille %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escanea con cualquier monedero de %@"
           }
         }
       }
@@ -9718,6 +11620,12 @@
             "state": "translated",
             "value": "Scan en cours…"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escaneando…"
+          }
         }
       }
     },
@@ -9745,6 +11653,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Recherche en cours"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando"
           }
         }
       }
@@ -9774,6 +11688,12 @@
             "state": "translated",
             "value": "SECONDES"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SEGUNDOS"
+          }
         }
       }
     },
@@ -9801,6 +11721,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Envoyer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviar"
           }
         }
       }
@@ -9830,6 +11756,12 @@
             "state": "translated",
             "value": "Séance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión"
+          }
         }
       }
     },
@@ -9858,6 +11790,12 @@
             "state": "translated",
             "value": "SÉANCE TERMINÉE"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SESIÓN COMPLETADA"
+          }
         }
       }
     },
@@ -9885,6 +11823,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Séance en direct"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sesión en vivo"
           }
         }
       }
@@ -9948,6 +11892,12 @@
             "state": "translated",
             "value": "Sexe"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sexo"
+          }
         }
       }
     },
@@ -9975,6 +11925,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Part du temps de zone importé, pondéré par la durée entre les séances , approximatif."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proporción del tiempo en zona importado, ponderado por duración entre sesiones , aproximado."
           }
         }
       }
@@ -10004,6 +11960,12 @@
             "state": "translated",
             "value": "Devriez-vous forcer aujourd'hui ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Deberías esforzarte hoy?"
+          }
         }
       }
     },
@@ -10031,6 +11993,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Afficher l'adresse de don %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar la dirección de donación de %@"
           }
         }
       }
@@ -10060,6 +12028,12 @@
             "state": "translated",
             "value": "SIGNIFICATIF"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SIGNIFICATIVO"
+          }
         }
       }
     },
@@ -10088,6 +12062,12 @@
             "state": "translated",
             "value": "HIIT haptique silencieux , le bracelet vibre aux transitions"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HIIT háptico silencioso: la correa vibra en las transiciones"
+          }
         }
       }
     },
@@ -10115,6 +12095,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Passer pour l'instant"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Omitir por ahora"
           }
         }
       }
@@ -10178,6 +12164,12 @@
             "state": "translated",
             "value": "Dette de sommeil"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Deuda de sueño"
+          }
         }
       }
     },
@@ -10205,6 +12197,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Performance du sommeil"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendimiento del sueño"
           }
         }
       }
@@ -10234,6 +12232,12 @@
             "state": "translated",
             "value": "Répartition des stades de sommeil : profond %lld %, léger %lld %, REM %lld %, éveillé %lld %"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desglose de fases del sueño: profundo %lld por ciento, ligero %lld por ciento, REM %lld por ciento, despierto %lld por ciento"
+          }
         }
       }
     },
@@ -10261,6 +12265,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Fils lents"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hilos lentos"
           }
         }
       }
@@ -10290,6 +12300,12 @@
             "state": "translated",
             "value": "Source Apple Santé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuente Apple Health"
+          }
         }
       }
     },
@@ -10317,6 +12333,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Source Whoop"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fuente Whoop"
           }
         }
       }
@@ -10346,6 +12368,12 @@
             "state": "translated",
             "value": "Répartition des stades"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desglose de fases"
+          }
         }
       }
     },
@@ -10373,6 +12401,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stades vs typique"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fases vs lo habitual"
           }
         }
       }
@@ -10402,6 +12436,12 @@
             "state": "translated",
             "value": "Démarrer"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar"
+          }
         }
       }
     },
@@ -10430,6 +12470,12 @@
             "state": "translated",
             "value": "Démarrer la séance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Iniciar sesión"
+          }
         }
       }
     },
@@ -10457,6 +12503,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "État"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estado"
           }
         }
       }
@@ -10520,6 +12572,12 @@
             "state": "translated",
             "value": "Arrêter la séance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Detener sesión"
+          }
         }
       }
     },
@@ -10547,6 +12605,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Bracelet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsera"
           }
         }
       }
@@ -10576,6 +12640,12 @@
             "state": "translated",
             "value": "Bracelet associé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsera vinculada"
+          }
         }
       }
     },
@@ -10603,6 +12673,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "JOURNAL DU BRACELET"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "REGISTRO DE LA PULSERA"
           }
         }
       }
@@ -10632,6 +12708,12 @@
             "state": "translated",
             "value": "Bracelet non connecté"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pulsera no conectada"
+          }
         }
       }
     },
@@ -10659,6 +12741,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sync du bracelet"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronización de la pulsera"
           }
         }
       }
@@ -10722,6 +12810,12 @@
             "state": "translated",
             "value": "Stress · %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estrés · %@"
+          }
         }
       }
     },
@@ -10751,6 +12845,12 @@
             "state": "translated",
             "value": "Stress · M"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estrés · M"
+          }
         }
       }
     },
@@ -10778,6 +12878,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Stress %@ de 3, %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estrés %@ de 3, %@"
           }
         }
       }
@@ -10807,6 +12913,12 @@
             "state": "translated",
             "value": "Le stress est dérivé de deux signaux autonomes."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El estrés se deriva de dos señales autonómicas."
+          }
         }
       }
     },
@@ -10834,6 +12946,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Moniteur de stress"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitor de estrés"
           }
         }
       }
@@ -10863,6 +12981,12 @@
             "state": "translated",
             "value": "Tendance du stress"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencia del estrés"
+          }
         }
       }
     },
@@ -10890,6 +13014,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Suggestion : %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sugerencia: %@"
           }
         }
       }
@@ -10919,6 +13049,12 @@
             "state": "translated",
             "value": "Assistance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Soporte"
+          }
         }
       }
     },
@@ -10946,6 +13082,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Soutenir NOOP , faire un don ou nous contacter"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apoya a NOOP: dona o ponte en contacto"
           }
         }
       }
@@ -10975,6 +13117,12 @@
             "state": "translated",
             "value": "Soutenir le développement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apoya el desarrollo"
+          }
         }
       }
     },
@@ -11002,6 +13150,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synchronisation de l'historique du bracelet…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizando el historial de la pulsera…"
           }
         }
       }
@@ -11031,6 +13185,12 @@
             "state": "translated",
             "value": "Test de vibration %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Probar vibración de %@"
+          }
         }
       }
     },
@@ -11058,6 +13218,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Action test"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acción de prueba"
           }
         }
       }
@@ -11087,6 +13253,12 @@
             "state": "translated",
             "value": "Vibration test"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vibración de prueba"
+          }
         }
       }
     },
@@ -11114,6 +13286,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Le fil de vous au fil du temps."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El hilo de ti a lo largo del tiempo."
           }
         }
       }
@@ -11143,6 +13321,12 @@
             "state": "translated",
             "value": "Ces éléments alimentent vos zones de fréquence cardiaque, estimations de calories et références de récupération. Gardez-les précis."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estos alimentan tus zonas de frecuencia cardíaca, las estimaciones de calorías y las líneas base de recuperación. Mantenlos precisos."
+          }
         }
       }
     },
@@ -11170,6 +13354,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réflexion en cours"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pensando"
           }
         }
       }
@@ -11199,6 +13389,12 @@
             "state": "translated",
             "value": "Ceci se construit depuis le bracelet au fil de la synchronisation. L'effort et le sommeil apparaissent après que vous l'ayez porté et dormi une nuit. La récupération nécessite environ une semaine de nuits pour apprendre votre référence, ou importez votre export WHOOP pour éviter l'attente."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto se construye desde la correa a medida que se sincroniza. El esfuerzo y el sueño aparecen después de haberla llevado puesta y haber dormido una noche. La recuperación necesita alrededor de una semana de noches para aprender tu línea base, o importa tu exportación de WHOOP para evitar la espera."
+          }
         }
       }
     },
@@ -11226,6 +13422,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "C'est la seule fonctionnalité qui quitte votre Mac , elle envoie un résumé de vos métriques à %@ en utilisant votre propre clé. Rien n'est envoyé jusqu'à ce que vous le demandiez."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta es la única función que sale de tu Mac: envía un resumen de tus métricas a %@ usando tu propia clave. No se envía nada hasta que tú lo pides."
           }
         }
       }
@@ -11255,6 +13457,12 @@
             "state": "translated",
             "value": "Ceci repose sur la rétro-ingénierie communautaire. Un immense merci :"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esto se apoya en la ingeniería inversa de la comunidad. Muchísimas gracias:"
+          }
         }
       }
     },
@@ -11283,6 +13491,12 @@
             "state": "translated",
             "value": "Plage de temps"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rango de tiempo"
+          }
         }
       }
     },
@@ -11310,6 +13524,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "à"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "a"
           }
         }
       }
@@ -11373,6 +13593,12 @@
             "state": "translated",
             "value": "Synthèse du jour"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resumen del dia"
+          }
         }
       }
     },
@@ -11400,6 +13626,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Today's value is your recorded daily stress score (0–3)."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "El valor de hoy es tu puntuación diaria de estrés registrada (0–3)."
           }
         }
       }
@@ -11429,6 +13661,12 @@
             "state": "translated",
             "value": "Calories totales"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Calorías totales"
+          }
         }
       }
     },
@@ -11456,6 +13694,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Distance totale"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Distancia total"
           }
         }
       }
@@ -11485,6 +13729,12 @@
             "state": "translated",
             "value": "Temps total"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tiempo total"
+          }
         }
       }
     },
@@ -11512,6 +13762,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Total des entraînements"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamientos totales"
           }
         }
       }
@@ -11541,6 +13797,12 @@
             "state": "translated",
             "value": "Tendance"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencia"
+          }
         }
       }
     },
@@ -11568,6 +13830,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tendances"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tendencias"
           }
         }
       }
@@ -11597,6 +13865,12 @@
             "state": "translated",
             "value": "Les tendances ont besoin d'historique pour s'afficher. Importez votre export WHOOP dans Sources de données pour voir semaines, mois et années instantanément."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las tendencias necesitan historial para dibujarse. Importa tu exportación de WHOOP en Fuentes de datos para ver semanas, meses y años al instante."
+          }
         }
       }
     },
@@ -11624,6 +13898,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Réessayer"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inténtalo de nuevo"
           }
         }
       }
@@ -11653,6 +13933,12 @@
             "state": "translated",
             "value": "Essayer les sondes de protocole WHOOP 5/MG"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prueba las sondas del protocolo WHOOP 5/MG"
+          }
         }
       }
     },
@@ -11680,6 +13966,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Utiliser"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar"
           }
         }
       }
@@ -11709,6 +14001,12 @@
             "state": "translated",
             "value": "Utiliser un modèle personnalisé"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usar modelo personalizado"
+          }
         }
       }
     },
@@ -11733,6 +14031,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "v%@"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "v%@"
@@ -11765,6 +14069,12 @@
             "state": "translated",
             "value": "Visuel uniquement"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Solo visual"
+          }
         }
       }
     },
@@ -11792,6 +14102,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Signes vitaux"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signos vitales"
           }
         }
       }
@@ -11821,6 +14137,12 @@
             "state": "translated",
             "value": "VO₂ Max"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "VO₂ Máx"
+          }
         }
       }
     },
@@ -11849,6 +14171,12 @@
             "state": "translated",
             "value": "Réveil à"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Despertar a las"
+          }
         }
       }
     },
@@ -11876,6 +14204,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "We compare today's resting heart rate and HRV to your own 30-day baseline. A higher-than-usual resting HR and a lower-than-usual HRV both push the score up , classic signs the body is activated. The combined shift is mapped onto a 0–3 scale: 0 is calm, 1.5 sits at your baseline, 3 is highly activated."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comparamos la frecuencia cardíaca en reposo y la VFC de hoy con tu propia línea base de 30 días. Una FC en reposo más alta de lo habitual y una VFC más baja de lo habitual empujan la puntuación hacia arriba: signos clásicos de que el cuerpo está activado. El cambio combinado se mapea en una escala de 0–3: 0 es calma, 1,5 se sitúa en tu línea base, 3 es muy activado."
           }
         }
       }
@@ -11939,6 +14273,12 @@
             "state": "translated",
             "value": "Ce qui corrèle"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué se correlaciona"
+          }
         }
       }
     },
@@ -11966,6 +14306,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Ce qui fait évoluer votre %@"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Qué mueve tu %@"
           }
         }
       }
@@ -11995,6 +14341,12 @@
             "state": "translated",
             "value": "À QUOI S'ATTENDRE"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "QUÉ ESPERAR"
+          }
         }
       }
     },
@@ -12022,6 +14374,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "What's new"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Novedades"
           }
         }
       }
@@ -12051,6 +14409,12 @@
             "state": "translated",
             "value": "Quand je double-tape"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando toco dos veces"
+          }
         }
       }
     },
@@ -12078,6 +14442,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Quand la demande système apparaît, choisissez Autoriser pour que NOOP puisse trouver votre bracelet."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cuando aparezca el aviso del sistema, elige Permitir para que NOOP pueda encontrar tu pulsera."
           }
         }
       }
@@ -12107,6 +14477,12 @@
             "state": "translated",
             "value": "Quel bracelet ?"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Qué pulsera?"
+          }
         }
       }
     },
@@ -12131,6 +14507,12 @@
           }
         },
         "fr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Whoop"
+          }
+        },
+        "es": {
           "stringUnit": {
             "state": "translated",
             "value": "Whoop"
@@ -12163,6 +14545,12 @@
             "state": "translated",
             "value": "Importation Whoop"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importación de Whoop"
+          }
         }
       }
     },
@@ -12190,6 +14578,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "WHOOP straps don't appear in macOS System Settings → Bluetooth. They advertise on a custom profile that only apps like NOOP can find , so there's nothing to pair there, and you shouldn't try."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Las pulseras WHOOP no aparecen en Ajustes del sistema de macOS → Bluetooth. Se anuncian con un perfil personalizado que solo apps como NOOP pueden encontrar, así que no hay nada que emparejar ahí y no deberías intentarlo."
           }
         }
       }
@@ -12219,6 +14613,12 @@
             "state": "translated",
             "value": "Fenêtre"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ventana"
+          }
         }
       }
     },
@@ -12246,6 +14646,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Avec"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Con"
           }
         }
       }
@@ -12275,6 +14681,12 @@
             "state": "translated",
             "value": "Sans"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sin"
+          }
         }
       }
     },
@@ -12302,6 +14714,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Traitement en cours…"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trabajando…"
           }
         }
       }
@@ -12331,6 +14749,12 @@
             "state": "translated",
             "value": "Entraînements"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrenamientos"
+          }
         }
       }
     },
@@ -12358,6 +14782,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wrist delivery isn't live yet , it needs a small on-device watcher (coming in an update) to read macOS notifications. Everything stays on this Mac. Your choices are saved now and will apply automatically once delivery ships."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "La entrega en la muñeca aún no está disponible: necesita un pequeño observador en el dispositivo (próximamente en una actualización) para leer las notificaciones de macOS. Todo permanece en este Mac. Tus elecciones se guardan ahora y se aplicarán automáticamente cuando la entrega esté disponible."
           }
         }
       }
@@ -12387,6 +14817,12 @@
             "state": "translated",
             "value": "Vous avez dit : %@"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dijiste: %@"
+          }
         }
       }
     },
@@ -12414,6 +14850,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "You're connected."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Estás conectado."
           }
         }
       }
@@ -12443,6 +14885,12 @@
             "state": "translated",
             "value": "Votre fréquence cardiaque en direct fonctionne depuis le bracelet, et la récupération, l'effort et le sommeil se construisent à partir de là sur vos prochaines nuits de port, s'affinant au fur et à mesure qu'il apprend votre référence. Vous voulez votre historique complet instantanément ? Importez votre export WHOOP dans Sources de données et il se remplit en environ une minute."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu frecuencia cardíaca en vivo funciona desde la correa, y la recuperación, el esfuerzo y el sueño se construyen a partir de ella durante tus próximas noches de uso, afinándose a medida que aprende tu línea base. ¿Quieres todo tu historial al instante? Importa tu exportación de WHOOP en Fuentes de datos y se rellenará en aproximadamente un minuto."
+          }
         }
       }
     },
@@ -12470,6 +14918,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Vos chiffres, votre bracelet et comment NOOP fonctionne. Tout sur ce Mac."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tus números, tu correa y cómo funciona NOOP. Todo en este Mac."
           }
         }
       }
@@ -12499,6 +14953,12 @@
             "state": "translated",
             "value": "Votre bracelet en temps réel , fréquence cardiaque et trames à mesure qu'ils arrivent."
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu pulsera en tiempo real: frecuencia cardíaca y fotogramas a medida que llegan."
+          }
         }
       }
     },
@@ -12526,6 +14986,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Votre fil commence ici."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tu hilo empieza aquí."
           }
         }
       }
@@ -12555,6 +15021,12 @@
             "state": "translated",
             "value": "Zone"
           }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zona"
+          }
         }
       }
     },
@@ -12582,6 +15054,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Δ vs préc."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Δ vs ant."
           }
         }
       }
