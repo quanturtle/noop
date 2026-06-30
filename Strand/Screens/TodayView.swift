@@ -2954,11 +2954,12 @@ struct TodayView: View {
             // pinned/selected tile is dropped or reordered (#251); the rest just fold until the expander.
             LazyVGrid(columns: grid, alignment: .leading, spacing: NoopMetrics.gap) {
                 ForEach(visibleKeyMetrics) { metric in
-                    // Fill the row height so both cards in a row are equal height: otherwise a taller tile
-                    // (e.g. Rest with its sparkline) leaves its row-mate short, and the empty space below the
-                    // shorter card reads as an uneven gap on one side of the grid.
+                    // One fixed height for every tile so cards are uniform regardless of which fields they
+                    // carry. (LazyVGrid proposes a cell only its content height, so maxHeight: .infinity
+                    // never stretched the shorter tiles — sparkline tiles ended up taller than the rest.)
                     keyMetricTile(metric)
-                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .frame(maxWidth: .infinity)
+                        .frame(height: NoopMetrics.keyMetricTileHeight)
                 }
             }
             if metricsHasOverflow {

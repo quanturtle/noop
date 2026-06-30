@@ -12,6 +12,7 @@ public enum NoopMetrics {
     public static let sectionGap: CGFloat = 22   // Apple x WHOOP: breathing room (not cramped)
     public static let screenPadding: CGFloat = 18
     public static let tileHeight: CGFloat = 96   // Design Reset: tighter metric tile
+    public static let keyMetricTileHeight: CGFloat = 122  // Key Metrics grid: one fixed height for every tile (fits a sparkline + caption) so cards are uniform
     public static let chartHeight: CGFloat = 220
     public static let hypnogramBandMinThickness: CGFloat = 14  // floor so short stages read as bars, not ticks
     public static let tabBarClearance: CGFloat = 76  // iOS: extra bottom scroll room so the last card clears the floating tab bar
