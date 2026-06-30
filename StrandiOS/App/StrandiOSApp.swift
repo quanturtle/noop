@@ -95,6 +95,11 @@ struct StrandiOSApp: App {
                         effort: day?.strain.map { Int($0.rounded()) }
                     )
                 }
+                // Republish the widget on every dashboard-cache change, not just on foreground, so a
+                // mid-session backfill doesn't leave it frozen. refreshSeq bumps once per real refresh.
+                .onReceive(model.repo.$refreshSeq) { _ in
+                    Task { await WidgetSnapshot.publish(from: model) }
+                }
                 // #581: the `noop://import-health` deep link the iOS Shortcut opens after building the
                 // HealthKit-free payload. Filter on the host so other future schemes don't trip the
                 // importer; macOS never registers the scheme so this stays iOS-only.
