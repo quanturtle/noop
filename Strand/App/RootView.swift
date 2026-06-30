@@ -34,6 +34,10 @@ enum NavItem: String, CaseIterable, Identifiable, Hashable {
 
     var id: String { rawValue }
 
+    var displayTitle: String {
+        self == .smartAlarm ? "Alarms" : rawValue
+    }
+
     /// Localized sidebar label. Each case maps to a string literal so Xcode extracts
     /// it into the String Catalog as an English (US) base entry.
     var titleKey: LocalizedStringKey {
@@ -160,6 +164,7 @@ struct RootView: View {
     /// (`.today`). The single-item Today/Sleep sections always read expanded so their one row shows; the
     /// multi-item groups (Body / Insights / Data & App) collapse to just their header until tapped.
     @State private var expandedGroups: Set<String> = Self.initialExpandedGroups(for: .today)
+    @State private var sidebarSearch = ""
 
     /// The groups expanded at rest: every single-item group (so its lone row is visible) plus the group
     /// owning the current selection. Keeps the sidebar to "headers + the active group" as the spec asks.
@@ -182,12 +187,15 @@ struct RootView: View {
                 // their one row directly so there's nothing to expand into. The `NavItem` enum is
                 // unchanged (M5 gate): only this layout that consumes it changed.
                 List(selection: $selection) {
-                    ForEach(NavGroup.all) { group in
-                        if group.items.count == 1, let only = group.items.first {
-                            sidebarRow(only)
-                        } else {
-                            DisclosureGroup(isExpanded: groupExpansion(group.id)) {
-                                ForEach(group.items) { sidebarRow($0) }
+                    ForEach(NavGroup.all.filter { $0.items.count == 1 }) { group in
+                        sidebarRow(group.items[0])
+                    }
+                    sidebarSearchField
+                    ForEach(NavGroup.all.filter { $0.items.count > 1 }) { group in
+                        let matches = filteredItems(group)
+                        if !matches.isEmpty {
+                            DisclosureGroup(isExpanded: groupExpansion(group.id, searching: !sidebarSearch.isEmpty)) {
+                                ForEach(matches) { sidebarRow($0) }
                             } label: {
                                 Text(group.title)
                                     .font(StrandFont.rounded(11, weight: .semibold))
@@ -268,13 +276,38 @@ struct RootView: View {
     }
 
     /// A binding into `expandedGroups` for one group's id, so each DisclosureGroup drives the shared set.
-    private func groupExpansion(_ id: String) -> Binding<Bool> {
+    private func groupExpansion(_ id: String, searching: Bool = false) -> Binding<Bool> {
         Binding(
-            get: { expandedGroups.contains(id) },
+            get: { searching || expandedGroups.contains(id) },
             set: { isOpen in
+                if searching { return }
                 if isOpen { expandedGroups.insert(id) } else { expandedGroups.remove(id) }
             }
         )
+    }
+
+    private func filteredItems(_ group: NavGroup) -> [NavItem] {
+        let q = sidebarSearch.trimmingCharacters(in: .whitespaces).lowercased()
+        guard !q.isEmpty else { return group.items }
+        return group.items.filter { $0.displayTitle.lowercased().contains(q) }
+    }
+
+    private var sidebarSearchField: some View {
+        HStack(spacing: 8) {
+            Image(systemName: "magnifyingglass")
+                .font(.system(size: 13))
+                .foregroundStyle(StrandPalette.textTertiary)
+                .accessibilityHidden(true)
+            TextField("Search", text: $sidebarSearch)
+                .textFieldStyle(.plain)
+                .font(StrandFont.body)
+                .foregroundStyle(StrandPalette.textPrimary)
+                .accessibilityLabel("Search sections")
+        }
+        .padding(.horizontal, 12).padding(.vertical, 9)
+        .background(StrandPalette.surfaceInset, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).strokeBorder(StrandPalette.hairline, lineWidth: 1))
+        .listRowBackground(Color.clear)
     }
 
     private var brand: some View {
