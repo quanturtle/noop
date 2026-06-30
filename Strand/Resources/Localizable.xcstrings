@@ -20113,6 +20113,30 @@
             "state": "translated",
             "value": "Sveglie"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
         }
       }
     },
@@ -20522,6 +20546,30 @@
           "stringUnit": {
             "state": "translated",
             "value": "Backup e sincronizzazione"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
           }
         }
       }
@@ -22242,6 +22290,30 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dispositivi"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
           }
         }
       }
@@ -24281,6 +24353,30 @@
             "state": "translated",
             "value": "Quaderno di laboratorio"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
         }
       }
     },
@@ -25028,6 +25124,30 @@
           "stringUnit": {
             "state": "translated",
             "value": "Mi Band"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
           }
         }
       }
@@ -27805,6 +27925,30 @@
             "state": "translated",
             "value": "Ritmo"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
         }
       }
     },
@@ -29541,6 +29685,30 @@
             "state": "translated",
             "value": "Centro test"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
         }
       }
     },
@@ -30821,6 +30989,30 @@
             "state": "translated",
             "value": "Cosa ti muove"
           }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
         }
       }
     },
@@ -31406,6 +31598,30 @@
           "stringUnit": {
             "state": "translated",
             "value": "I tuoi dati, fusi insieme"
+          }
+        },
+        "de": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "fr": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "new",
+            "value": ""
           }
         }
       }
