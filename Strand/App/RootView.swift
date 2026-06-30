@@ -34,10 +34,6 @@ enum NavItem: String, CaseIterable, Identifiable, Hashable {
 
     var id: String { rawValue }
 
-    var displayTitle: String {
-        self == .smartAlarm ? "Alarms" : rawValue
-    }
-
     /// Localized sidebar label. Each case maps to a string literal so Xcode extracts
     /// it into the String Catalog as an English (US) base entry.
     var titleKey: LocalizedStringKey {
@@ -289,7 +285,7 @@ struct RootView: View {
     private func filteredItems(_ group: NavGroup) -> [NavItem] {
         let q = sidebarSearch.trimmingCharacters(in: .whitespaces).lowercased()
         guard !q.isEmpty else { return group.items }
-        return group.items.filter { $0.displayTitle.lowercased().contains(q) }
+        return group.items.filter { $0.rawValue.lowercased().contains(q) }
     }
 
     private var sidebarSearchField: some View {
