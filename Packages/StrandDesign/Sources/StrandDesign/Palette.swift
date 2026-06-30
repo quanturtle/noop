@@ -91,6 +91,8 @@ public enum StrandPalette {
     public static let accentMuted    = Color(light: "#E4ECF6", dark: "#16233A") // selected-row tint (pale blue / dark blue)
     /// Focus ring color (blue on both schemes — WHOOP has no gold).
     public static let focusRing      = Color(light: "#2F6FCB", dark: "#60A0E0")
+    /// Fill behind a focused/active text field (e.g. the sidebar search row's rounded well).
+    public static let fieldFocusFill = Color(hex: "#1E1E1E")
     /// Opacity for dimmed/disabled sections (shared so screens don't invent their own value).
     public static let disabledOpacity: Double = 0.45
 

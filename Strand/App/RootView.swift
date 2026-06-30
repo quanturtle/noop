@@ -161,6 +161,7 @@ struct RootView: View {
     /// multi-item groups (Body / Insights / Data & App) collapse to just their header until tapped.
     @State private var expandedGroups: Set<String> = Self.initialExpandedGroups(for: .today)
     @State private var sidebarSearch = ""
+    @FocusState private var searchFocused: Bool
 
     /// The groups expanded at rest: every single-item group (so its lone row is visible) plus the group
     /// owning the current selection. Keeps the sidebar to "headers + the active group" as the spec asks.
@@ -289,21 +290,31 @@ struct RootView: View {
     }
 
     private var sidebarSearchField: some View {
-        HStack(spacing: 8) {
-            Image(systemName: "magnifyingglass")
-                .font(.system(size: 13))
-                .foregroundStyle(StrandPalette.textTertiary)
-                .accessibilityHidden(true)
+        Label {
             TextField("Search", text: $sidebarSearch)
                 .textFieldStyle(.plain)
-                .font(StrandFont.body)
                 .foregroundStyle(StrandPalette.textPrimary)
+                .focused($searchFocused)
                 .accessibilityLabel("Search sections")
+        } icon: {
+            Image(systemName: "magnifyingglass")
+                .foregroundStyle(StrandPalette.textTertiary)
         }
-        .padding(.horizontal, 12).padding(.vertical, 9)
-        .background(StrandPalette.surfaceInset, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).strokeBorder(StrandPalette.hairline, lineWidth: 1))
-        .listRowBackground(Color.clear)
+        .font(StrandFont.rounded(13, weight: .medium))
+        .listRowBackground(searchRowBackground)
+    }
+
+    /// A rounded highlight behind the search row while it's focused, matching the native sidebar
+    /// selection capsule that the Today/Sleep rows use, drawn as the row background so the icon and text
+    /// keep their column alignment (no inward shift).
+    @ViewBuilder private var searchRowBackground: some View {
+        if searchFocused {
+            RoundedRectangle(cornerRadius: 8, style: .continuous)
+                .fill(StrandPalette.fieldFocusFill)
+                .padding(.horizontal, 10)
+        } else {
+            Color.clear
+        }
     }
 
     private var brand: some View {
