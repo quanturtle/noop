@@ -34,42 +34,42 @@ enum NavItem: String, CaseIterable, Identifiable, Hashable {
 
     var id: String { rawValue }
 
-    /// Localized sidebar label. Each case maps to a string literal so Xcode extracts
-    /// it into the String Catalog as an English (US) base entry.
-    var titleKey: LocalizedStringKey {
+    /// The sidebar label as the user reads it, localized via the String Catalog so the rows — and the
+    /// search filter that matches against them — read in the user's language. Single source for both.
+    var title: String {
         switch self {
-        case .today: return "Today"
-        case .intelligence: return "Intelligence"
-        case .insightsHub: return "What Moves You"
-        case .coach: return "Coach"
-        case .live: return "Live"
-        case .breathe: return "Breathe"
-        case .intervals: return "Intervals"
-        case .explore: return "Explore"
-        case .compare: return "Compare"
-        case .insights: return "Insights"
-        case .sleep: return "Sleep"
-        case .trends: return "Trends"
-        case .workouts: return "Workouts"
-        case .health: return "Health"
-        case .stress: return "Stress"
-        case .labBook: return "Lab Book"
-        case .rhythm: return "Rhythm"
-        case .appleHealth: return "Apple Health"
-        case .xiaomi: return "Mi Band"
-        case .dataSources: return "Data Sources"
-        case .backupSync: return "Backup & Sync"
-        case .fusedRecord: return "Your Data, Fused"
-        case .devices: return "Devices"
-        case .notifications: return "Notifications"
-        case .automation: return "Automations"
+        case .today: return String(localized: "Today")
+        case .intelligence: return String(localized: "Intelligence")
+        case .insightsHub: return String(localized: "What Moves You")
+        case .coach: return String(localized: "Coach")
+        case .live: return String(localized: "Live")
+        case .breathe: return String(localized: "Breathe")
+        case .intervals: return String(localized: "Intervals")
+        case .explore: return String(localized: "Explore")
+        case .compare: return String(localized: "Compare")
+        case .insights: return String(localized: "Insights")
+        case .sleep: return String(localized: "Sleep")
+        case .trends: return String(localized: "Trends")
+        case .workouts: return String(localized: "Workouts")
+        case .health: return String(localized: "Health")
+        case .stress: return String(localized: "Stress")
+        case .labBook: return String(localized: "Lab Book")
+        case .rhythm: return String(localized: "Rhythm")
+        case .appleHealth: return String(localized: "Apple Health")
+        case .xiaomi: return String(localized: "Mi Band")
+        case .dataSources: return String(localized: "Data Sources")
+        case .backupSync: return String(localized: "Backup & Sync")
+        case .fusedRecord: return String(localized: "Your Data, Fused")
+        case .devices: return String(localized: "Devices")
+        case .notifications: return String(localized: "Notifications")
+        case .automation: return String(localized: "Automations")
         // "Alarms" is the ONE alarm surface (#766): the strap's silent wake-alarm (moved in from
         // Automations) and the evening wind-down reminder, in one place. Previously "Wind-Down" (#730).
         // The case name and rawValue stay `smartAlarm`/"Smart Alarm" as the in-memory nav identifier only.
-        case .smartAlarm: return "Alarms"
-        case .settings: return "Settings"
-        case .support: return "Support"
-        case .testCentre: return "Test Centre"
+        case .smartAlarm: return String(localized: "Alarms")
+        case .settings: return String(localized: "Settings")
+        case .support: return String(localized: "Support")
+        case .testCentre: return String(localized: "Test Centre")
         }
     }
 
@@ -266,7 +266,7 @@ struct RootView: View {
 
     /// One selectable destination row (same Label styling the flat list used), tagged for selection.
     private func sidebarRow(_ item: NavItem) -> some View {
-        Label(item.titleKey, systemImage: item.icon)
+        Label(item.title, systemImage: item.icon)
             .font(StrandFont.rounded(13, weight: .medium))
             .tag(item)
     }
@@ -285,7 +285,7 @@ struct RootView: View {
     private func filteredItems(_ group: NavGroup) -> [NavItem] {
         let q = sidebarSearch.trimmingCharacters(in: .whitespaces).lowercased()
         guard !q.isEmpty else { return group.items }
-        return group.items.filter { $0.rawValue.lowercased().contains(q) }
+        return group.items.filter { $0.title.lowercased().contains(q) }
     }
 
     private var sidebarSearchField: some View {
