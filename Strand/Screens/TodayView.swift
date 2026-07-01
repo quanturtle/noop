@@ -2527,7 +2527,7 @@ struct TodayView: View {
             // Charge ring). Charge's chevron opens the "what shaped it" breakdown (its richest explanation);
             // Effort / Rest open their scoring-guide section.
             Button { if let onRingTap { onRingTap() } else { guideSection = section } } label: {
-                HStack(spacing: 3) {
+                HStack(spacing: 0) {
                     // The CHARGE/EFFORT/REST hero label is localized: the catalog key is the natural-case
                     // domain word (Charge/Effort/Rest) and `.textCase(.uppercase)` does the uppercasing in
                     // the current locale, so a de/es/ru build shows the translated word, not the English id.
@@ -2535,12 +2535,11 @@ struct TodayView: View {
                         .textCase(.uppercase)
                         .font(StrandFont.overline)
                         .tracking(StrandFont.overlineTracking)
-                        .overlay(alignment: .trailing) {
-                            Image(systemName: "chevron.right")
-                                .font(.system(size: 9, weight: .bold))
-                                .opacity(0.6)
-                                .alignmentGuide(.trailing) { d in d[.leading] - 3 }
-                        }
+                    Image(systemName: "chevron.right")
+                        .font(.system(size: 9, weight: .bold))
+                        .opacity(0.6)
+                        .padding(.leading, 3)
+                        .frame(width: 0, alignment: .leading)
                 }
                 .foregroundStyle(StrandPalette.textSecondary)
                 .contentShape(Rectangle())
