@@ -2535,9 +2535,12 @@ struct TodayView: View {
                         .textCase(.uppercase)
                         .font(StrandFont.overline)
                         .tracking(StrandFont.overlineTracking)
-                    Image(systemName: "chevron.right")
-                        .font(.system(size: 9, weight: .bold))
-                        .opacity(0.6)
+                        .overlay(alignment: .trailing) {
+                            Image(systemName: "chevron.right")
+                                .font(.system(size: 9, weight: .bold))
+                                .opacity(0.6)
+                                .alignmentGuide(.trailing) { d in d[.leading] - 3 }
+                        }
                 }
                 .foregroundStyle(StrandPalette.textSecondary)
                 .contentShape(Rectangle())
