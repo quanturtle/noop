@@ -3239,7 +3239,8 @@ struct TodayView: View {
                             caption: workoutCaption(w),
                             accent: StrandPalette.effortTint(fraction: (w.strain ?? 0) / StrainScorer.maxStrain),
                             delta: w.energyKcal.map { "\(Int($0.rounded())) kcal" },
-                            deltaColor: StrandPalette.metricAmber
+                            deltaColor: StrandPalette.metricAmber,
+                            deltaSingleLine: true
                         )
                     }
                 }

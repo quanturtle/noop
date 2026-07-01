@@ -150,6 +150,7 @@ public struct StatTile<Accessory: View>: View {
     var accent: Color = StrandPalette.textPrimary
     var delta: String? = nil
     var deltaColor: Color = StrandPalette.textTertiary
+    var deltaSingleLine: Bool = false
     var sparkline: [Double]? = nil
     var sparkColor: Color = StrandPalette.accent
     /// An optional trailing accessory laid out INLINE in the header row beside the label (e.g. a small
@@ -159,11 +160,12 @@ public struct StatTile<Accessory: View>: View {
 
     public init(label: LocalizedStringKey, value: String, caption: String? = nil,
                 accent: Color = StrandPalette.textPrimary, delta: String? = nil,
-                deltaColor: Color = StrandPalette.textTertiary,
+                deltaColor: Color = StrandPalette.textTertiary, deltaSingleLine: Bool = false,
                 sparkline: [Double]? = nil, sparkColor: Color = StrandPalette.accent,
                 @ViewBuilder accessory: @escaping () -> Accessory) {
         self.label = label; self.value = value; self.caption = caption; self.accent = accent
-        self.delta = delta; self.deltaColor = deltaColor; self.sparkline = sparkline; self.sparkColor = sparkColor
+        self.delta = delta; self.deltaColor = deltaColor; self.deltaSingleLine = deltaSingleLine
+        self.sparkline = sparkline; self.sparkColor = sparkColor
         self.accessory = accessory
     }
 
@@ -183,7 +185,7 @@ public struct StatTile<Accessory: View>: View {
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
                     Text(value).font(StrandFont.number(26)).foregroundStyle(accent).lineLimit(1).minimumScaleFactor(0.6)
                     Spacer(minLength: 0)
-                    if let delta { TrendChip(text: delta, color: deltaColor).offset(y: -5) }
+                    if let delta { TrendChip(text: delta, color: deltaColor, singleLine: deltaSingleLine) }
                 }
                 // Sparkline isn't available on watchOS (it relies on chart-hover helpers); the watch
                 // doesn't use StatTile, but guard the reference so the file still compiles there.
@@ -217,10 +219,11 @@ public struct StatTile<Accessory: View>: View {
 public extension StatTile where Accessory == EmptyView {
     init(label: LocalizedStringKey, value: String, caption: String? = nil,
          accent: Color = StrandPalette.textPrimary, delta: String? = nil,
-         deltaColor: Color = StrandPalette.textTertiary,
+         deltaColor: Color = StrandPalette.textTertiary, deltaSingleLine: Bool = false,
          sparkline: [Double]? = nil, sparkColor: Color = StrandPalette.accent) {
         self.init(label: label, value: value, caption: caption, accent: accent, delta: delta,
-                  deltaColor: deltaColor, sparkline: sparkline, sparkColor: sparkColor,
+                  deltaColor: deltaColor, deltaSingleLine: deltaSingleLine,
+                  sparkline: sparkline, sparkColor: sparkColor,
                   accessory: { EmptyView() })
     }
 }
@@ -233,8 +236,9 @@ public extension StatTile where Accessory == EmptyView {
 public struct TrendChip: View {
     let text: String
     var color: Color = StrandPalette.textTertiary
-    public init(text: String, color: Color = StrandPalette.textTertiary) {
-        self.text = text; self.color = color
+    var singleLine: Bool = false
+    public init(text: String, color: Color = StrandPalette.textTertiary, singleLine: Bool = false) {
+        self.text = text; self.color = color; self.singleLine = singleLine
     }
     private var symbol: String? {
         let t = text.trimmingCharacters(in: .whitespaces)
@@ -247,7 +251,8 @@ public struct TrendChip: View {
     public var body: some View {
         HStack(spacing: 3) {
             if let symbol { Image(systemName: symbol).font(.system(size: 8, weight: .bold)) }
-            Text(text).font(StrandFont.captionNumber).lineLimit(1).fixedSize(horizontal: true, vertical: false)
+            Text(text).font(StrandFont.captionNumber)
+                .lineLimit(singleLine ? 1 : nil).fixedSize(horizontal: singleLine, vertical: false)
         }
         .foregroundStyle(color)
         .padding(.horizontal, 6).padding(.vertical, 2)
