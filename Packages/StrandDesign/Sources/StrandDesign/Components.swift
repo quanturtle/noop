@@ -183,8 +183,7 @@ public struct StatTile<Accessory: View>: View {
                 HStack(alignment: .firstTextBaseline, spacing: 6) {
                     Text(value).font(StrandFont.number(26)).foregroundStyle(accent).lineLimit(1).minimumScaleFactor(0.6)
                     Spacer(minLength: 0)
-                    // Trend chip — the delta as a tinted pill with a direction arrow.
-                    if let delta { TrendChip(text: delta, color: deltaColor) }
+                    if let delta { TrendChip(text: delta, color: deltaColor).offset(y: -5) }
                 }
                 // Sparkline isn't available on watchOS (it relies on chart-hover helpers); the watch
                 // doesn't use StatTile, but guard the reference so the file still compiles there.
@@ -248,7 +247,7 @@ public struct TrendChip: View {
     public var body: some View {
         HStack(spacing: 3) {
             if let symbol { Image(systemName: symbol).font(.system(size: 8, weight: .bold)) }
-            Text(text).font(StrandFont.captionNumber)
+            Text(text).font(StrandFont.captionNumber).lineLimit(1).fixedSize(horizontal: true, vertical: false)
         }
         .foregroundStyle(color)
         .padding(.horizontal, 6).padding(.vertical, 2)

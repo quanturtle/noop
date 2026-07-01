@@ -415,6 +415,9 @@ struct TodayView: View {
     // single-vs-two-column boundary and could collapse to one full-width column on a narrow phone.
     private let grid = [GridItem(.adaptive(minimum: 150), spacing: NoopMetrics.gap)]
 
+    // Wider minimum than the metric grid so the value + kcal chip aren't crowded (still 2 columns on a phone).
+    private let workoutGrid = [GridItem(.adaptive(minimum: 178), spacing: NoopMetrics.gap)]
+
     /// #817 - the furthest-back offset the day-nav (swipe + chevrons + date jump) may reach: today's
     /// logical day back to the earliest banked day across all sources. 0 when there's no data yet, so
     /// today stays the only navigable day. Drives the swipe clamp so a swipe can't strand the user on a
@@ -3228,7 +3231,7 @@ struct TodayView: View {
             VStack(alignment: .leading, spacing: NoopMetrics.gap) {
                 SectionHeader("Last Workouts", overline: "Activity",
                               trailing: "\(workouts.count) total")
-                LazyVGrid(columns: grid, alignment: .leading, spacing: NoopMetrics.gap) {
+                LazyVGrid(columns: workoutGrid, alignment: .leading, spacing: NoopMetrics.gap) {
                     ForEach(Array(workouts.prefix(6).enumerated()), id: \.offset) { _, w in
                         StatTile(
                             label: "\(WorkoutSource.displaySport(w.sport))",
