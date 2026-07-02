@@ -69,6 +69,36 @@ public struct MenuBarLabel: View {
 
 // MARK: - Popover content
 
+/// On its first open, the MenuBarExtra panel lays its content out against a still-zero-sized
+/// window and then springs the intermediate graphics view from (-w/2, -h/2) into place — the
+/// popover content visibly slides in from the corner. SwiftUI exposes neither the panel nor that
+/// view, so this zero-size view walks up to it when attached (which happens exactly at first open)
+/// and pins its origin while the spring runs; the spring converges to the same origin anyway, the
+/// pin just skips the visible ride.
+private final class MenuBarPanelTamerView: NSView {
+    override func viewDidMoveToWindow() {
+        super.viewDidMoveToWindow()
+        guard let contentView = window?.contentView else { return }
+        var graphics: NSView = self
+        while let s = graphics.superview, s !== contentView { graphics = s }
+        graphics.postsFrameChangedNotifications = true
+        let token = NotificationCenter.default.addObserver(
+            forName: NSView.frameDidChangeNotification, object: graphics, queue: nil
+        ) { [weak graphics] _ in
+            guard let g = graphics, g.frame.origin != .zero else { return }
+            g.frame.origin = .zero
+        }
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            NotificationCenter.default.removeObserver(token)
+        }
+    }
+}
+
+private struct MenuBarPanelTamer: NSViewRepresentable {
+    func makeNSView(context: Context) -> NSView { MenuBarPanelTamerView() }
+    func updateNSView(_ nsView: NSView, context: Context) {}
+}
+
 /// The popover shown when the menu-bar item is clicked.
 public struct MenuBarContent: View {
     @EnvironmentObject private var repo: Repository
@@ -137,6 +167,7 @@ public struct MenuBarContent: View {
         .padding(16)
         .frame(width: 268)
         .background(StrandPalette.surfaceOverlay)
+        .background(MenuBarPanelTamer())
         .preferredColorScheme(AppearanceMode.resolve(appearanceRaw).colorScheme)
     }
 
@@ -256,22 +287,28 @@ public struct MenuBarContent: View {
 
     /// Honest sync line (ports the Android Live line, ed6a31d): pulsing pill while an offload runs,
     /// the stalled-offload error if the last one died, else "History synced N ago". The popover body
-    /// is rebuilt on every open, so the relative label is fresh without a timer. EmptyView when there
-    /// is nothing to say (never synced, no error) — the layout then matches today's exactly.
-    @ViewBuilder
+    /// is rebuilt on every open, so the relative label is fresh without a timer.
+    ///
+    /// The slot always reserves its height, even with nothing to say: the MenuBarExtra panel
+    /// animates every height change, so the pill↔text↔empty swaps (sync state lands right after
+    /// first layout; `backfilling` toggles per offload chunk) made the popover visibly slide into
+    /// place on open and bounce while open. The rare multi-line error may still grow the slot.
     private var syncLine: some View {
-        if live.backfilling {
-            StatePill("Syncing strap history…", tone: .accent, pulsing: true)
-        } else if let error = live.lastSyncError {
-            Text(error)
-                .font(StrandFont.footnote)
-                .foregroundStyle(StrandPalette.statusWarning)
-                .fixedSize(horizontal: false, vertical: true)
-        } else if let at = live.lastSyncedAt {
-            Text("History synced \(relativeAgo(at))")
-                .font(StrandFont.footnote)
-                .foregroundStyle(StrandPalette.textTertiary)
+        ZStack(alignment: .leading) {
+            if live.backfilling {
+                StatePill("Syncing strap history…", tone: .accent, pulsing: true)
+            } else if let error = live.lastSyncError {
+                Text(error)
+                    .font(StrandFont.footnote)
+                    .foregroundStyle(StrandPalette.statusWarning)
+                    .fixedSize(horizontal: false, vertical: true)
+            } else if let at = live.lastSyncedAt {
+                Text("History synced \(relativeAgo(at))")
+                    .font(StrandFont.footnote)
+                    .foregroundStyle(StrandPalette.textTertiary)
+            }
         }
+        .frame(minHeight: 24, alignment: .leading)
     }
 
     // MARK: Actions
