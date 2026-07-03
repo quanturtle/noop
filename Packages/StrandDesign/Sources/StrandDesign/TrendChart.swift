@@ -51,6 +51,9 @@ public struct TrendChart: View {
     /// coordinate space (via the overlay proxy), so it sits exactly on the line. nil = no cap.
     /// (#458: an earlier sibling-overlay cap guessed the plot insets and floated off the line.)
     public var nowCapColor: Color?
+    /// Y-axis domain when it should differ from `valueRange` — e.g. an axis fitted to the data
+    /// window while the gradient stays anchored to the metric's full scale. nil = `valueRange`.
+    public var yDomain: ClosedRange<Double>?
 
     /// Mean of all point values, computed once in `init` so the area fill's gradient
     /// stop doesn't run an O(n) reduce for every mark on every render.
@@ -69,7 +72,8 @@ public struct TrendChart: View {
         valueFormat: @escaping (Double) -> String = { String(Int($0.rounded())) },
         dateFormat: @escaping (Date) -> String = { TrendChart.defaultDateString($0) },
         accessibilityLabel: String? = nil,
-        nowCapColor: Color? = nil
+        nowCapColor: Color? = nil,
+        yDomain: ClosedRange<Double>? = nil
     ) {
         let sorted = points.sorted { $0.date < $1.date }
         self.points = sorted
@@ -82,6 +86,7 @@ public struct TrendChart: View {
         self.dateFormat = dateFormat
         self.accessibilityLabel = accessibilityLabel
         self.nowCapColor = nowCapColor
+        self.yDomain = yDomain
         let avg = sorted.isEmpty
             ? valueRange.lowerBound
             : sorted.map(\.value).reduce(0, +) / Double(sorted.count)
@@ -192,7 +197,8 @@ public struct TrendChart: View {
                 }
             }
         }
-        .chartYScale(domain: valueRange)
+        // endPadding keeps a top-of-range curve and the top axis label clear of the plot clip.
+        .chartYScale(domain: yDomain ?? valueRange, range: .plotDimension(endPadding: 8))
         // Clip the plot to its own bounds. catmullRom interpolation overshoots past the data extremes
         // on sharp turns, and the AreaMark gradient is drawn UNCLIPPED — so on a spiky HR curve the
         // rose fill bled down the page behind the cards below the chart. Clipping the plot area bounds

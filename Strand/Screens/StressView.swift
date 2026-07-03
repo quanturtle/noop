@@ -486,6 +486,8 @@ struct StressView: View {
             SectionHeader("Stress Trend", overline: "History", trailing: range.name)
             if points.count >= 2 {
                 let avg = points.map(\.value).reduce(0, +) / Double(points.count)
+                // Axis top = highest reading rounded up (min 1); gradient stays on the full 0–3 scale.
+                let yTop = max(1, (points.map(\.value).max() ?? 3).rounded(.up))
                 ChartCard(
                     title: "Stress · \(range.label)",
                     subtitle: String(localized: "Daily 0–3 proxy"),
@@ -499,7 +501,8 @@ struct StressView: View {
                         showsArea: true,
                         height: NoopMetrics.chartHeight,
                         valueFormat: { String(format: "%.1f", $0) },
-                        accessibilityLabel: String(localized: "Stress trend")
+                        accessibilityLabel: String(localized: "Stress trend"),
+                        yDomain: 0...yTop
                     )
                 } footer: {
                     ChartFooter([
