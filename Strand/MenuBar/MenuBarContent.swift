@@ -69,12 +69,9 @@ public struct MenuBarLabel: View {
 
 // MARK: - Popover content
 
-/// On its first open, the MenuBarExtra panel lays its content out against a still-zero-sized
-/// window and then springs the intermediate graphics view from (-w/2, -h/2) into place — the
-/// popover content visibly slides in from the corner. SwiftUI exposes neither the panel nor that
-/// view, so this zero-size view walks up to it when attached (which happens exactly at first open)
-/// and pins its origin while the spring runs; the spring converges to the same origin anyway, the
-/// pin just skips the visible ride.
+/// First open lays the MenuBarExtra content out against a still-zero-sized window, then springs the
+/// intermediate graphics view into place — a visible corner slide. SwiftUI exposes no handle to either,
+/// so this zero-size view pins that view's origin while the spring runs (it converges to .zero anyway).
 private final class MenuBarPanelTamerView: NSView {
     override func viewDidMoveToWindow() {
         super.viewDidMoveToWindow()
